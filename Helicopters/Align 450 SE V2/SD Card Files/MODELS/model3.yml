@@ -1,0 +1,1434 @@
+semver: 2.12.0
+header: 
+   name: "Align 450 SE V2"
+   bitmap: "Align450.png"
+   labels: ""
+timers: 
+   0:
+      start: 300
+      swtch: "SD1"
+      value: 0
+      mode: THR
+      countdownBeep: 2
+      minuteBeep: 1
+      persistent: 0
+      countdownStart: -1
+      showElapsed: 0
+      extraHaptic: 1
+      name: "Flight"
+telemetryProtocol: 0
+thrTrim: 0
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 0
+displayChecklist: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+disableTelemetryWarning: 0
+showInstanceIds: 0
+checklistInteractive: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData: 
+ -
+   destCh: 0
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "SE0"
+   curve: 
+      type: 3
+      value: 1
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Normal"
+ -
+   destCh: 0
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "SE1"
+   curve: 
+      type: 3
+      value: 3
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Idle 1"
+ -
+   destCh: 0
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "SE2"
+   curve: 
+      type: 3
+      value: 5
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Idlen2"
+ -
+   destCh: 1
+   srcRaw: "CYC2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 2
+   srcRaw: "CYC1"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 3
+   srcRaw: "I3"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 4
+   srcRaw: "I4"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 4
+   srcRaw: "MAX"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: -40
+   offset: 0
+   swtch: "SA0"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 4
+   srcRaw: "MAX"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 28
+   offset: 0
+   swtch: "SA1"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 4
+   srcRaw: "MAX"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 60
+   offset: 0
+   swtch: "SA2"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 5
+   srcRaw: "CYC3"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+limitData: 
+   0:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Thr"
+   1:
+      min: 200
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Ail"
+   2:
+      min: 200
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 1
+      curve: 0
+      name: "Ele"
+   3:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Rud"
+   4:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Gain"
+   5:
+      min: 200
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 1
+      curve: 0
+      name: "Pit"
+expoData: 
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ail"
+   weight: 55
+   offset: 0
+   swtch: "SC0"
+   curve: 
+      type: 1
+      value: 40
+   chn: 0
+   flightModes: 000000000
+   name: "Low"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ail"
+   weight: 75
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 30
+   chn: 0
+   flightModes: 000000000
+   name: "Mid"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ail"
+   weight: 100
+   offset: 0
+   swtch: "SC2"
+   curve: 
+      type: 1
+      value: 25
+   chn: 0
+   flightModes: 000000000
+   name: "High"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ele"
+   weight: 55
+   offset: 0
+   swtch: "SC0"
+   curve: 
+      type: 1
+      value: 40
+   chn: 1
+   flightModes: 000000000
+   name: "Low"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ele"
+   weight: 75
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 30
+   chn: 1
+   flightModes: 000000000
+   name: "Mid"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ele"
+   weight: 100
+   offset: 0
+   swtch: "SC2"
+   curve: 
+      type: 1
+      value: 25
+   chn: 1
+   flightModes: 000000000
+   name: "High"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 2
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Rud"
+   weight: 65
+   offset: 0
+   swtch: "SC0"
+   curve: 
+      type: 1
+      value: 35
+   chn: 3
+   flightModes: 000000000
+   name: "Low"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Rud"
+   weight: 80
+   offset: 0
+   swtch: "SC1"
+   curve: 
+      type: 1
+      value: 25
+   chn: 3
+   flightModes: 000000000
+   name: "Mid"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Rud"
+   weight: 100
+   offset: 0
+   swtch: "SC2"
+   curve: 
+      type: 1
+      value: 20
+   chn: 3
+   flightModes: 000000000
+   name: "High"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "SE0"
+   curve: 
+      type: 3
+      value: 2
+   chn: 4
+   flightModes: 000000000
+   name: "Normal"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "SE1"
+   curve: 
+      type: 3
+      value: 4
+   chn: 4
+   flightModes: 000000000
+   name: "Idle 1"
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "SE2"
+   curve: 
+      type: 3
+      value: 6
+   chn: 4
+   flightModes: 000000000
+   name: "Idle 2"
+curves: 
+   0:
+      type: 1
+      smooth: 0
+      points: 0
+      name: "CTH"
+   1:
+      type: 1
+      smooth: 0
+      points: 0
+      name: "CPI"
+   2:
+      type: 0
+      smooth: 0
+      points: 0
+      name: "CT1"
+   3:
+      type: 0
+      smooth: 0
+      points: 0
+      name: "CP1"
+   4:
+      type: 0
+      smooth: 0
+      points: 0
+      name: "CT2"
+   5:
+      type: 0
+      smooth: 0
+      points: 0
+      name: "CP2"
+points: 
+   0:
+      val: -100
+   1:
+      val: -90
+   2:
+      val: -10
+   3:
+      val: 45
+   4:
+      val: 80
+   5:
+      val: -50
+   7:
+      val: 50
+   8:
+      val: -35
+   9:
+      val: 15
+   10:
+      val: 40
+   11:
+      val: 55
+   12:
+      val: 70
+   13:
+      val: -50
+   15:
+      val: 50
+   16:
+      val: 70
+   17:
+      val: 75
+   18:
+      val: 80
+   19:
+      val: 80
+   20:
+      val: 80
+   21:
+      val: -75
+   22:
+      val: -40
+   24:
+      val: 40
+   25:
+      val: 75
+   26:
+      val: 80
+   27:
+      val: 85
+   28:
+      val: 90
+   29:
+      val: 90
+   30:
+      val: 90
+   31:
+      val: -90
+   32:
+      val: -50
+   34:
+      val: 50
+   35:
+      val: 90
+customFn: 
+   0:
+      swtch: "SD2"
+      func: RESET
+      def: "Tmr1,1"
+   1:
+      swtch: "SB0"
+      func: RGB_LED
+      def: "blue,1,1x"
+   2:
+      swtch: "SB1"
+      func: RGB_LED
+      def: "sapp,1,On"
+   3:
+      swtch: "SB2"
+      func: RGB_LED
+      def: "off,1,1x"
+   4:
+      swtch: "SF0"
+      func: OVERRIDE_CHANNEL
+      def: "0,-100,1"
+swashR: 
+   type: TYPE_120
+   value: 0
+   collectiveSource: I4
+   aileronSource: I0
+   elevatorSource: I1
+   collectiveWeight: 60
+   aileronWeight: -60
+   elevatorWeight: -60
+flightModeData: 
+   0:
+      name: "Normal"
+      swtch: "NONE"
+      fadeIn: 0
+      fadeOut: 0
+      gvars: 
+         0:
+            val: 0
+         1:
+            val: 0
+         2:
+            val: 0
+         3:
+            val: 0
+         4:
+            val: 0
+         5:
+            val: 0
+         6:
+            val: 0
+         7:
+            val: 0
+         8:
+            val: 0
+         9:
+            val: 0
+         10:
+            val: 0
+         11:
+            val: 0
+         12:
+            val: 0
+         13:
+            val: 0
+         14:
+            val: 0
+   1:
+      name: "Idle-Up 1"
+      swtch: "SE1"
+      fadeIn: 0
+      fadeOut: 0
+   2:
+      name: "Idle-Up 2"
+      swtch: "SE2"
+      fadeIn: 0
+      fadeOut: 0
+thrTraceSrc: Thr
+switchWarning: 
+   SA:
+      pos: up
+   SB:
+      pos: up
+   SC:
+      pos: up
+   SD:
+      pos: up
+   SE:
+      pos: up
+   SF:
+      pos: up
+   SG:
+      pos: up
+   SW1:
+      pos: down
+   SW2:
+      pos: up
+   SW3:
+      pos: up
+   SW4:
+      pos: up
+   SW5:
+      pos: up
+   SW6:
+      pos: up
+rssiSource: none
+rfAlarms: 
+   warning: 45
+   critical: 42
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+moduleData: 
+   1:
+      type: TYPE_MULTIMODULE
+      subType: 6,0
+      channelsStart: 0
+      channelsCount: 6
+      failsafeMode: NOT_SET
+      mod: 
+         multi: 
+            disableTelemetry: 0
+            disableMapping: 1
+            autoBindMode: 1
+            lowPowerMode: 0
+            receiverTelemetryOff: 0
+            receiverHigherChannels: 0
+            optionValue: 1
+inputNames: 
+   0:
+      val: "Ail"
+   1:
+      val: "Ele"
+   2:
+      val: "Thr"
+   3:
+      val: "Rud"
+   4:
+      val: "Pit"
+potsWarnEnabled: 0
+screenData: 
+   0:
+      LayoutId: Layout4P2
+      layoutData: 
+         zones: 
+            0:
+               widgetName: GaugeRotary
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: I2
+                     1:
+                        type: Signed
+                        value: 
+                           signedValue: -1
+                     2:
+                        type: Signed
+                        value: 
+                           signedValue: -1
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Signed
+                        value: 
+                           signedValue: 1
+            1:
+               widgetName: Gauge
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: I0
+                     1:
+                        type: Signed
+                        value: 
+                           signedValue: -1024
+                     2:
+                        type: Signed
+                        value: 
+                           signedValue: 1024
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+            2:
+               widgetName: Gauge
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: I1
+                     1:
+                        type: Signed
+                        value: 
+                           signedValue: -1024
+                     2:
+                        type: Signed
+                        value: 
+                           signedValue: 1024
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+            3:
+               widgetName: Gauge
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: I3
+                     1:
+                        type: Signed
+                        value: 
+                           signedValue: -1024
+                     2:
+                        type: Signed
+                        value: 
+                           signedValue: 1024
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+            4:
+               widgetName: Timer
+               widgetData: 
+                  options: 
+                     0:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+            5:
+               widgetName: Outputs
+               widgetData: 
+                  options: 
+                     0:
+                        type: Signed
+                        value: 
+                           signedValue: 1
+                     1:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     2:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX0
+                     4:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+   1:
+      LayoutId: Layout2x4
+      layoutData: 
+         zones: 
+            0:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SA - Gyro Gain
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            1:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SB - LEDs
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            2:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SC - Rates High/Mid/Low
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            3:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SD - Timer Pause/Play/Reset
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            4:
+               widgetName: Value
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: ch(4)
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX1
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            5:
+               widgetName: Value
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: SB
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX1
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            6:
+               widgetName: Outputs
+               widgetData: 
+                  options: 
+                     0:
+                        type: Signed
+                        value: 
+                           signedValue: 2
+                     1:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     2:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX0
+                     4:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+            7:
+               widgetName: Timer
+               widgetData: 
+                  options: 
+                     0:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+            5:
+               type: Bool
+               value: 
+                  boolValue: 1
+            6:
+               type: Color
+               value: 
+                  color: COLIDX3
+            7:
+               type: Bool
+               value: 
+                  boolValue: 1
+            8:
+               type: Color
+               value: 
+                  color: COLIDX3
+   2:
+      LayoutId: Layout2x4
+      layoutData: 
+         zones: 
+            0:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SE - Normal/Idle-Up 1/Idle-Up 2
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            1:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SF - Throttle Hold On/Off
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            4:
+               widgetName: Outputs
+               widgetData: 
+                  options: 
+                     0:
+                        type: Signed
+                        value: 
+                           signedValue: 1
+                     1:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     2:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX0
+                     4:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+            5:
+               widgetName: Value
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: ch(0)
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+            5:
+               type: Bool
+               value: 
+                  boolValue: 1
+            6:
+               type: Color
+               value: 
+                  color: COLIDX1
+            7:
+               type: Bool
+               value: 
+                  boolValue: 1
+            8:
+               type: Color
+               value: 
+                  color: COLIDX1
+topbarData: 
+   zones: 
+      0:
+         widgetName: Text
+         widgetData: 
+            options: 
+               0:
+                  type: String
+                  value: 
+                     stringValue: Align 450 SE V2
+               1:
+                  type: Color
+                  value: 
+                     color: COLIDX29
+               2:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 4
+               3:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               4:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 1
+      1:
+         widgetName: ModelBmp
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX3
+               1:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+               2:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               3:
+                  type: Color
+                  value: 
+                     color: COLIDX5
+               4:
+                  type: Bool
+                  value: 
+                     boolValue: 1
+      2:
+         widgetName: Value
+         widgetData: 
+            options: 
+               0:
+                  type: Source
+                  value: 
+                     source: TX_VOLTAGE
+               1:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+               2:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               3:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+               4:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+      3:
+         widgetName: Radio Info
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: 0xF04030
+               1:
+                  type: Color
+                  value: 
+                     color: 0xF8C000
+               2:
+                  type: Color
+                  value: 
+                     color: 0x48AC50
+      4:
+         widgetName: Date Time
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+topbarWidgetWidth: 
+   0:
+      val: 3
+   1:
+      val: 1
+   2:
+      val: 1
+   3:
+      val: 1
+   4:
+      val: 1
+view: 0
+modelRegistrationID: "416252Q-"
+customSwitches: 
+   SW1:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_ON
+      state: 1
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW2:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW3:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW4:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW5:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW6:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+cfsGroupOn: 
+   1:
+      v: 1
+   2:
+      v: 0
+   3:
+      v: 0
+usbJoystickExtMode: 0
+usbJoystickIfMode: JOYSTICK
+usbJoystickCircularCut: 0
+radioThemesDisabled: GLOBAL
+radioGFDisabled: GLOBAL
+radioTrainerDisabled: GLOBAL
+modelHeliDisabled: GLOBAL
+modelFMDisabled: GLOBAL
+modelCurvesDisabled: GLOBAL
+modelGVDisabled: GLOBAL
+modelLSDisabled: GLOBAL
+modelSFDisabled: GLOBAL
+modelCustomScriptsDisabled: GLOBAL
+modelTelemetryDisabled: GLOBAL
