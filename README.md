@@ -8,7 +8,7 @@ EdgeTX model backups and SD assets for a Radiomaster **TX16S MK3**.
 Helicopters/
   <Model Name>/
     SD Card Files/     # Mirror of SD root — drag contents onto the TX SD (F:\)
-    Documentation/     # Setup notes, switch maps, curves, etc.
+    Documentation/     # Model homepage + guides
 Drones/
   <Model Name>/
     SD Card Files/
@@ -27,7 +27,15 @@ See each model’s `Documentation/RESTORE.md` for slot / `labels.yml` notes.
 
 ## Models
 
-| Category | Model | Status |
-|----------|--------|--------|
-| Helicopters | Align 450 SE V2 | Backed up |
-| Drones | — | Placeholder |
+| Category | Model | Documentation | Status |
+|----------|--------|---------------|--------|
+| Helicopters | [Align 450 SE V2](Helicopters/Align%20450%20SE%20V2/Documentation/README.md) | Homepage, setup guides, restore | Backed up |
+| Drones | — | — | Placeholder |
+
+### Align 450 SE V2 — quick links
+
+- [Model homepage](Helicopters/Align%20450%20SE%20V2/Documentation/README.md)
+- [SD Card Files](Helicopters/Align%20450%20SE%20V2/SD%20Card%20Files/)
+- [Switch map](Helicopters/Align%20450%20SE%20V2/Documentation/switch-map.md)
+- [Flying guide](Helicopters/Align%20450%20SE%20V2/Documentation/flying-guide.md)
+- [Swash levelling](Helicopters/Align%20450%20SE%20V2/Documentation/swashplate-leveling.md)

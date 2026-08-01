@@ -33,3 +33,8 @@ Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, Radio Info, Date
 1. Eject SD / unplug USB storage mode.
 2. Power on TX16S → select **Align 450 SE V2**.
 3. Confirm image, SB lights, and screens load.
+
+## Related
+
+- [← Model home](README.md)
+- [Setup summary](SETUP.md)

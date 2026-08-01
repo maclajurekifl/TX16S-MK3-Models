@@ -1,49 +1,32 @@
-# Align 450 SE V2 — setup notes
+# Align 450 SE V2 — setup summary
 
-Flybar Align 450 SE V2 on Radiomaster TX16S MK3 (EdgeTX), Spektrum **AR6200**, DSM bind.
+Compact cheat sheet. Full narrative lives in the [model home](README.md) and linked guides.
 
-## Receiver map (AR6200)
+## Hardware
 
-| Port | Function |
-|------|----------|
-| THRO | ESC |
-| AILE | Swash servo (CYC) |
-| ELEV | Swash servo (CYC) |
-| RUDD | Tail gyro |
-| GEAR | Gyro gain |
-| AUX1 | Third swash servo — mixer source **CYC3** |
+- Align 450 SE V2 · flybar · CCPM 120°  
+- TX16S MK3 · EdgeTX  
+- Spektrum AR6200  
 
-## Switches (this radio)
+## Switches
 
-| Switch | Function |
-|--------|----------|
-| **SF** | Throttle hold (CH1 override safe) |
-| **SE** | Flight mode: Normal / Idle1 / Idle2 |
-| **SA** | Gyro gain |
-| **SB** | RGB lights (`blue` / `sapp` / `off`) |
-| **SC** | Dual rates Low / Med / High |
-| **SD** | Flight timer |
+| Switch | Role |
+|--------|------|
+| SF | Throttle hold |
+| SE | Normal / Idle1 / Idle2 |
+| SA | Gyro gain |
+| SB | Lights |
+| SC | Rates Low / Med / High |
+| SD | Timer |
 
-## Critical CCPM notes
+## Critical mix rules
 
-- **Heli → Coll. pitch source** = **PIT** (Inputs).
-- Pitch curves live on **Inputs → PIT** (`CPI` / `CP1` / `CP2`), not on Flight Modes page.
-- **AUX1** mixer source stays **CYC3** — never replace with Thr.
-- Throttle curves live on **Mixers → THRO** (`CTH` / `CT1` / `CT2`) gated by flight mode.
+- Coll. pitch source = **PIT** (curves on that input)  
+- AUX1 = **CYC3**  
+- THRO = thr curves per FM  
+- Cyclic calm = **SC** rates + expo (not pitch curves)  
 
-## Dual rates (SC) — cyclic calm
-
-Aileron / Elevator:
-
-| Rates | Weight | Expo |
-|-------|--------|------|
-| Low | 55% | 40% |
-| Med | 75% | 30% |
-| High | 100% | 25% |
-
-Rudder: 65%/35% · 80%/25% · 100%/20%
-
-## Curves (starting targets)
+## Curves (targets)
 
 ```
 Normal  CTH: -100,-100 | -50,-90 | 0,-10 | 50,45 | 100,80
@@ -54,17 +37,10 @@ Idle2   CT2: -100,80   | -50,85  | 0,90  | 50,90 | 100,90
 Idle2   CP2: -100,-90  | -50,-50 | 0,0   | 50,50 | 100,90
 ```
 
-Verify live values in the radio / `model3.yml` after edits — this doc is the intended setup guide.
+## Pack
 
-## Pack / voltage
+3S fly · 2S tune only  
 
-- Normal flight: **3S (11.1 V)**
-- Bench / gentle tune only: 2S OK; retune gains on 3S
+## Restore
 
-## What fixes what
-
-| Feel | Adjust |
-|------|--------|
-| Twitchy fore/aft / left/right | SC dual rates + expo |
-| Normal vs Idle head speed / collective | CTH/CT*/CPI/CP* curves |
-| Hard yaw spin on liftoff | Gyro **sense** (not gain chasing) |
+[RESTORE.md](RESTORE.md) · [`../SD Card Files/`](../SD%20Card%20Files/)
