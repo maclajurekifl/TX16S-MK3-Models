@@ -1,9 +1,9 @@
 semver: 2.12.0
-header:
+header: 
    name: "Emax Hawk 5"
    bitmap: "Hawk5.png"
    labels: ""
-timers:
+timers: 
    0:
       start: 300
       swtch: "SD1"
@@ -33,7 +33,7 @@ showInstanceIds: 0
 checklistInteractive: 0
 customThrottleWarningPosition: 0
 beepANACenter: 0
-mixData:
+mixData: 
  -
    destCh: 0
    srcRaw: "I0"
@@ -221,7 +221,7 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: "Turtle"
-expoData:
+expoData: 
  -
    mode: 3
    scale: 0
@@ -230,7 +230,7 @@ expoData:
    weight: 55
    offset: 0
    swtch: "SC0"
-   curve:
+   curve: 
       type: 1
       value: 40
    chn: 0
@@ -244,7 +244,7 @@ expoData:
    weight: 75
    offset: 0
    swtch: "SC1"
-   curve:
+   curve: 
       type: 1
       value: 30
    chn: 0
@@ -258,7 +258,7 @@ expoData:
    weight: 100
    offset: 0
    swtch: "SC2"
-   curve:
+   curve: 
       type: 1
       value: 20
    chn: 0
@@ -272,7 +272,7 @@ expoData:
    weight: 55
    offset: 0
    swtch: "SC0"
-   curve:
+   curve: 
       type: 1
       value: 40
    chn: 1
@@ -286,7 +286,7 @@ expoData:
    weight: 75
    offset: 0
    swtch: "SC1"
-   curve:
+   curve: 
       type: 1
       value: 30
    chn: 1
@@ -300,7 +300,7 @@ expoData:
    weight: 100
    offset: 0
    swtch: "SC2"
-   curve:
+   curve: 
       type: 1
       value: 20
    chn: 1
@@ -314,7 +314,7 @@ expoData:
    weight: 60
    offset: 0
    swtch: "SC0"
-   curve:
+   curve: 
       type: 1
       value: 35
    chn: 3
@@ -328,7 +328,7 @@ expoData:
    weight: 80
    offset: 0
    swtch: "SC1"
-   curve:
+   curve: 
       type: 1
       value: 25
    chn: 3
@@ -342,7 +342,7 @@ expoData:
    weight: 100
    offset: 0
    swtch: "SC2"
-   curve:
+   curve: 
       type: 1
       value: 15
    chn: 3
@@ -356,13 +356,10 @@ expoData:
    weight: 100
    offset: 0
    swtch: "NONE"
-   curve:
-      type: 0
-      value: 0
    chn: 2
    flightModes: 000000000
    name: "Thr"
-customFn:
+customFn: 
    0:
       swtch: "SD2"
       func: RESET
@@ -383,14 +380,8 @@ customFn:
       swtch: "SF0"
       func: OVERRIDE_CHANNEL
       def: "2,-100,1"
-flightModeData:
-   0:
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
 thrTraceSrc: Thr
-switchWarning:
+switchWarning: 
    SA:
       pos: up
    SB:
@@ -410,23 +401,21 @@ switchWarning:
    SW1:
       pos: down
 rssiSource: none
-rfAlarms:
+rfAlarms: 
    warning: 45
    critical: 42
 thrTrimSw: 0
 potsWarnMode: WARN_OFF
 jitterFilter: GLOBAL
-moduleData:
-   0:
-      type: TYPE_NONE
+moduleData: 
    1:
       type: TYPE_MULTIMODULE
       subType: 28,1
       channelsStart: 0
       channelsCount: 10
       failsafeMode: CUSTOM
-      mod:
-         multi:
+      mod: 
+         multi: 
             disableTelemetry: 0
             disableMapping: 0
             autoBindMode: 0
@@ -434,12 +423,12 @@ moduleData:
             receiverTelemetryOff: 0
             receiverHigherChannels: 0
             optionValue: 0
-failsafeChannels:
+failsafeChannels: 
    2:
       val: -1024
    5:
       val: -1024
-inputNames:
+inputNames: 
    0:
       val: "Roll"
    1:
@@ -449,882 +438,882 @@ inputNames:
    3:
       val: "Yaw"
 potsWarnEnabled: 0
-screenData:
+screenData: 
    0:
       LayoutId: Layout4P2
-      layoutData:
-         zones:
+      layoutData: 
+         zones: 
             0:
                widgetName: GaugeRotary
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: I2
                      1:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: -1024
                      2:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 1024
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 1
             1:
                widgetName: Gauge
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: I0
                      1:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: -1024
                      2:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 1024
                      3:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX3
             2:
                widgetName: Gauge
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: I1
                      1:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: -1024
                      2:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 1024
                      3:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX3
             3:
                widgetName: Gauge
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: I3
                      1:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: -1024
                      2:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 1024
                      3:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX3
             4:
                widgetName: Timer
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
             5:
                widgetName: Outputs
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Signed
-                        value:
+                        value: 
                            signedValue: 5
                      1:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      2:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      3:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX0
                      4:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX3
-         options:
+         options: 
             0:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             1:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             2:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             3:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             4:
                type: Bool
-               value:
+               value: 
                   boolValue: 0
    1:
       LayoutId: Layout2x4
-      layoutData:
-         zones:
+      layoutData: 
+         zones: 
             0:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "SA Intens  Hi/Mid/Lo -> CH8"
+                        value: 
+                           stringValue: SA Intens  Hi/Mid/Lo -> CH8
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             1:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SB LEDs  Blue/Sapp/Off U/M/D
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            2:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SC Rates  Low/Mid/High U/M/D
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            3:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SD Timer  Pause/Run/Reset
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            4:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SA
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
-            2:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SB LEDs  Blue/Sapp/Off U/M/D"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 1
-            3:
+            5:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SB
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
-            4:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SC Rates  Low/Mid/High U/M/D"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 1
-            5:
+            6:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SC
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
-                           unsignedValue: 1
-            6:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SD Timer  Pause/Run/Reset"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             7:
                widgetName: Timer
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
-         options:
+         options: 
             0:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             1:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             2:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             3:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             4:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             5:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             6:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
             7:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             8:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
    2:
       LayoutId: Layout2x4
-      layoutData:
-         zones:
+      layoutData: 
+         zones: 
             0:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "SE Mode  Lvl/Horiz/Acro -> CH5"
+                        value: 
+                           stringValue: SE Mode  Lvl/Horiz/Acro -> CH5
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             1:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SF Hold  SAFE/ARMED U/D
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            2:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SH Beep  Off/On U/D hold
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            3:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SW1 Turtle  Off/On U/D
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            4:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SE
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
-            2:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SF Hold  SAFE/ARMED U/D"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 1
-            3:
+            5:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SF
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
-            4:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SH Beep  Off/On U/D hold"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 1
-            5:
+            6:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SH
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
-                           unsignedValue: 1
-            6:
-               widgetName: Text
-               widgetData:
-                  options:
-                     0:
-                        type: String
-                        value:
-                           stringValue: "SW1 Turtle  Off/On U/D"
-                     1:
-                        type: Color
-                        value:
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value:
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value:
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             7:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: SW1
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
-         options:
+         options: 
             0:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             1:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             2:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             3:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             4:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             5:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             6:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
             7:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             8:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
    3:
       LayoutId: Layout2x4
-      layoutData:
-         zones:
+      layoutData: 
+         zones: 
             0:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "Model  Emax Hawk 5  slot6"
+                        value: 
+                           stringValue: Model  Emax Hawk 5  slot6
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             1:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "RF  Ext AFHDS2A PPM  10ch"
+                        value: 
+                           stringValue: RF  Ext AFHDS2A PPM  10ch
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             2:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "TX battery"
+                        value: 
+                           stringValue: TX battery
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             3:
                widgetName: Value
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Source
-                        value:
+                        value: 
                            source: TX_VOLTAGE
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX1
                      2:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      3:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
             4:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "Flight timer"
+                        value: 
+                           stringValue: Flight timer
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             5:
                widgetName: Timer
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
             6:
                widgetName: Text
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: String
-                        value:
-                           stringValue: "Radio / link"
+                        value: 
+                           stringValue: Radio / link
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: COLIDX5
                      2:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 0
                      3:
                         type: Bool
-                        value:
+                        value: 
                            boolValue: 0
                      4:
                         type: Unsigned
-                        value:
+                        value: 
                            unsignedValue: 1
             7:
                widgetName: Radio Info
-               widgetData:
-                  options:
+               widgetData: 
+                  options: 
                      0:
                         type: Color
-                        value:
+                        value: 
                            color: 0xF04030
                      1:
                         type: Color
-                        value:
+                        value: 
                            color: 0xF8C000
                      2:
                         type: Color
-                        value:
+                        value: 
                            color: 0x48AC50
-         options:
+         options: 
             0:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             1:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             2:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             3:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             4:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             5:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             6:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
             7:
                type: Bool
-               value:
+               value: 
                   boolValue: 1
             8:
                type: Color
-               value:
+               value: 
                   color: COLIDX3
-topbarData:
-   zones:
+topbarData: 
+   zones: 
       0:
          widgetName: Text
-         widgetData:
-            options:
+         widgetData: 
+            options: 
                0:
                   type: String
-                  value:
+                  value: 
                      stringValue: Emax Hawk 5
                1:
                   type: Color
-                  value:
+                  value: 
                      color: COLIDX29
                2:
                   type: Unsigned
-                  value:
+                  value: 
                      unsignedValue: 4
                3:
                   type: Bool
-                  value:
+                  value: 
                      boolValue: 0
                4:
                   type: Unsigned
-                  value:
+                  value: 
                      unsignedValue: 1
       1:
          widgetName: Value
-         widgetData:
-            options:
+         widgetData: 
+            options: 
                0:
                   type: Source
-                  value:
+                  value: 
                      source: TX_VOLTAGE
                1:
                   type: Color
-                  value:
+                  value: 
                      color: COLIDX1
                2:
                   type: Bool
-                  value:
+                  value: 
                      boolValue: 0
                3:
                   type: Unsigned
-                  value:
+                  value: 
                      unsignedValue: 0
                4:
                   type: Unsigned
-                  value:
+                  value: 
                      unsignedValue: 0
       2:
          widgetName: Radio Info
-         widgetData:
-            options:
+         widgetData: 
+            options: 
                0:
                   type: Color
-                  value:
+                  value: 
                      color: 0xF04030
                1:
                   type: Color
-                  value:
+                  value: 
                      color: 0xF8C000
                2:
                   type: Color
-                  value:
+                  value: 
                      color: 0x48AC50
       3:
          widgetName: Date Time
-         widgetData:
-            options:
+         widgetData: 
+            options: 
                0:
                   type: Color
-                  value:
+                  value: 
                      color: COLIDX1
-topbarWidgetWidth:
+topbarWidgetWidth: 
    0:
       val: 4
    1:
@@ -1333,26 +1322,106 @@ topbarWidgetWidth:
       val: 2
    3:
       val: 2
-view: 0
+view: 1
 modelRegistrationID: "Hawk5---"
-customSwitches:
+customSwitches: 
    SW1:
-      name: "Turtle"
+      name: "Tur"
       type: 2POS
       group: 0
       start: START_OFF
       state: 0
       onColorLuaOverride: OFF
       offColorLuaOverride: OFF
-      onColor:
+      onColor: 
          r: 255
          g: 255
          b: 255
-      offColor:
+      offColor: 
          r: 0
          g: 0
          b: 0
-cfsGroupOn:
+   SW2:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW3:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW4:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW5:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+   SW6:
+      name: ""
+      type: 2POS
+      group: 1
+      start: START_OFF
+      state: 0
+      onColorLuaOverride: OFF
+      offColorLuaOverride: OFF
+      onColor: 
+         r: 255
+         g: 255
+         b: 255
+      offColor: 
+         r: 0
+         g: 0
+         b: 0
+cfsGroupOn: 
    1:
       v: 0
    2:

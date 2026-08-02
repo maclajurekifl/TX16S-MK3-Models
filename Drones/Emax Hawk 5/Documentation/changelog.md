@@ -3,6 +3,7 @@
 ## 2026-08-02 (night)
 
 - Doc hero `assets/Hawk5.png` (256×192, same as heli READMEs) and radio bitmap `IMAGES/Hawk5.png` (192×114).
+- Fix Layout2x4 switch pages: labels in left column, values in right (was interleaved so SA/SB vs SC/SD looked swapped).
 
 ## 2026-08-02 (evening)
 
