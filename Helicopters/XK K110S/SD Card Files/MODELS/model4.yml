@@ -5,7 +5,7 @@ header:
       1:
          val: 1
    bitmap: "XK110.png"
-   labels: ""
+   labels: "All,Helicopters"
 timers: 
    0:
       start: 300

@@ -2,7 +2,7 @@ semver: 2.12.0
 header: 
    name: "Align 450 SE V2"
    bitmap: "Align450.png"
-   labels: ""
+   labels: "All,Helicopters"
 timers: 
    0:
       start: 300
