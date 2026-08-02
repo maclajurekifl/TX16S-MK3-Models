@@ -128,7 +128,7 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 100
+   weight: -100
    offset: 0
    swtch: "NONE"
    delayUp: 0
@@ -585,7 +585,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SA Intensity  Lo/Mid/Hi -> CH8"
+                           stringValue: "SA Intens  Hi/Mid/Lo -> CH8"
                      1:
                         type: Color
                         value:
@@ -633,7 +633,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SB LEDs  Blue/Sapp/Off -> CH9"
+                           stringValue: "SB LEDs  Blue/Sapp/Off U/M/D"
                      1:
                         type: Color
                         value:
@@ -681,7 +681,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SC Rates  Low/Mid/High"
+                           stringValue: "SC Rates  Low/Mid/High U/M/D"
                      1:
                         type: Color
                         value:
@@ -729,7 +729,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SD Timer  Mid=Run  High=Reset"
+                           stringValue: "SD Timer  Pause/Run/Reset"
                      1:
                         type: Color
                         value:
@@ -802,7 +802,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SE Mode  Lvl/Acro/Horiz -> CH5"
+                           stringValue: "SE Mode  Lvl/Horiz/Acro -> CH5"
                      1:
                         type: Color
                         value:
@@ -850,7 +850,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SF Arm  SAFE/ARMED -> CH6"
+                           stringValue: "SF Arm  SAFE/ARMED U/D"
                      1:
                         type: Color
                         value:
@@ -898,7 +898,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SH Beeper  Hold=On -> CH7"
+                           stringValue: "SH Beep  Off/On U/D hold"
                      1:
                         type: Color
                         value:
@@ -946,7 +946,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SW1 Turtle  Off/On -> CH10"
+                           stringValue: "SW1 Turtle  Off/On U/D"
                      1:
                         type: Color
                         value:
@@ -1322,7 +1322,7 @@ customSwitches:
    SW1:
       name: "Turtle"
       type: 2POS
-      group: 1
+      group: 0
       start: START_OFF
       state: 0
       onColorLuaOverride: OFF
@@ -1337,7 +1337,7 @@ customSwitches:
          b: 0
 cfsGroupOn:
    1:
-      v: 1
+      v: 0
    2:
       v: 0
    3:

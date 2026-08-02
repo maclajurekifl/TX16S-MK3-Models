@@ -1,20 +1,24 @@
 # Switch map & keybinds
 
-**Emax Hawk 5** — multirotor model patterned after your radio’s **AERO** (`model1`) style: direct switch→channel mixes, Outputs-first screens. Switch *habits* match the helis.
+**Emax Hawk 5** — multirotor model patterned after your radio’s **AERO** (`model1`) style: direct switch→channel mixes, Outputs-first screens.
+
+**Rule:** higher switch position = safer / more level. Lower = more 3D / rates.
+
+Widget labels are always **Up / Mid / Down** (high → low).
 
 ## Switches → channels
 
-| Switch | Function | Channel |
-|--------|----------|---------|
-| **SA** | Level intensity | CH8 |
-| **SB** | LEDs (TX RGB + AUX) | CH9 |
-| **SC** | Rates Low/Mid/High (radio expo) | — (inputs only) |
-| **SD** | Timer run / reset | — |
-| **SE** | Level / Acro / Horizon | CH5 Mode |
-| **SF** | SAFE / ARMED (+ thr cut when safe) | CH6 Arm |
-| **SG** | *(unused)* | — |
-| **SH** | Beeper (hold to beep) | CH7 |
-| **SW1** | Turtle | CH10 |
+| Switch | Up | Mid | Down | Channel |
+|--------|----|-----|------|---------|
+| **SA** | Hi intensity | Mid | Lo intensity | CH8 |
+| **SB** | Blue | Sapphire | Off | CH9 (+ TX RGB) |
+| **SC** | Low rates | Mid rates | High rates | — (inputs only) |
+| **SD** | Pause | Run | Reset | — |
+| **SE** | **Level** | **Horizon** | **Acro** | CH5 Mode |
+| **SF** | **SAFE** (thr cut) | — | **ARMED** | CH6 Arm |
+| **SG** | *(unused)* | | | — |
+| **SH** | Off | — | On (hold) | CH7 |
+| **SW1** (btn **1**) | Off | — | Turtle (press again to Off) | CH10 |
 
 ## Sticks → inputs (AETR)
 
@@ -32,15 +36,13 @@ No custom limit table (same idea as **AERO**): default **±100%**. Watch the **O
 ## Screens
 
 1. **Flight** — Thr rotary, Roll/Pitch/Yaw gauges, timer, AUX outputs (CH5+)  
-2. **Switches SA–SD** — label + positions left · live value/impact right  
-3. **Switches SE–SW1** — mode/arm/beeper(SH)/turtle · live values right  
+2. **Switches SA–SD** — label Up/Mid/Down · live value right  
+3. **Switches SE–SW1** — same  
 4. **Info** — model/RF text, TX voltage, timer, radio link  
-
-Top bar: name · TX voltage · radio info · date (no duplicates).  
 
 ## Before arm
 
-**SF = SAFE** · **SE = Level** · **SC = Low** · thr low
+**SF Up** · **SE Up** (Level) · **SC Up** (Low rates) · thr low
 
 ## Related
 

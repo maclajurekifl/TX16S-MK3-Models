@@ -2,6 +2,8 @@
 
 Multirotor model aligned with **AERO** (`model1` on your SD): airplane type, direct switch mixes, Outputs screens. Not a heli clone.
 
+**Rule:** switch **Up** = safer / more level · **Down** = more 3D / rates. Labels are always Up/Mid/Down.
+
 ## Hardware / RF
 
 - Hawk 5 · BF 3.2.2 · PPM into FC  
@@ -13,14 +15,14 @@ Multirotor model aligned with **AERO** (`model1` on your SD): airplane type, dir
 | CH | Mix source | Name |
 |----|------------|------|
 | 1–4 | Roll/Pitch/Thr/Yaw inputs | AETR sticks |
-| 5 | **SE** | Mode |
-| 6 | **SF** | Arm |
+| 5 | **SE** | Mode (Lvl / Horiz / Acro) |
+| 6 | **SF** weight **−100** | Arm (Up=SAFE, Down=ARMED) |
 | 7 | **SH** | Beep |
-| 8 | **SA** | LvlInt |
+| 8 | **SA** | LvlInt (Hi / Mid / Lo) |
 | 9 | **SB** | LED |
 | 10 | **SW1** | Turtle |
 
-SC = dual rates on inputs (heli habit). SF0 also overrides thr to −100.
+SC = dual rates: Up=Low · Mid=Mid · Down=High. SF0 also overrides thr to −100.
 
 ## Model type
 
@@ -29,7 +31,7 @@ SC = dual rates on inputs (heli habit). SF0 also overrides thr to −100.
 
 ## BF
 
-[betaflight-modes.md](betaflight-modes.md)
+[betaflight-modes.md](betaflight-modes.md) — paste the AUX CLI (Level on SE Up).
 
 ## Restore
 
