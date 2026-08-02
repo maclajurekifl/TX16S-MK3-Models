@@ -11,7 +11,8 @@ Ordered notes from the setup work that led to this documentation pack.
 7. Long left-drift debug: servo swap didn’t move the fault; new main shaft didn’t fix; prefer links + board cal over TX trim.  
 8. Documented calibration **order**: level in **3D** → **gyro/sensor cal** → **6G hover cal**, with this radio’s switches (**SF** hold, **SA**, **SE** Normal, **SC** High).  
 9. Trim policy: keep ail/ele trim & subtrim **0** at plug-in; 6G hover cal is the board-side trim.  
-10. GitHub pack: lean **SD Card Files** from live `F:\` + Align-style docs under `Helicopters/XK K110S/`.
+10. GitHub pack: lean **SD Card Files** from live `F:\` + Align-style docs under `Helicopters/XK K110S/`.  
+11. **2026-08-02 refresh** from F: `model4.yml` — main screen **GaugeRotary → Gauge** (built-in gauges); dropped unused `WIDGETS/GaugeRotary` from this pack; labels hash updated. Curves / RF / switch map unchanged.
 
 ## Related
 

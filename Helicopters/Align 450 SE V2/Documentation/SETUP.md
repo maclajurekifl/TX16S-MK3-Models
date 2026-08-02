@@ -41,6 +41,11 @@ Idle2   CP2: -100,-90  | -50,-50 | 0,0   | 50,50 | 100,90
 
 3S fly · 2S tune only  
 
+## Notes from latest SD refresh
+
+- Normal flight mode carries a small **aileron trim (~+22)** in `model3.yml` — prefer fixing geometry if trim grows; don’t stack more TX trim.  
+- Telemetry screen uses built-in **Gauge** widgets (no GaugeRotary in this pack).  
+
 ## Restore
 
 [RESTORE.md](RESTORE.md) · [`../SD Card Files/`](../SD%20Card%20Files/)

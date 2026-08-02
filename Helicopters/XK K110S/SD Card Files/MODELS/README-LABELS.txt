@@ -1,7 +1,7 @@
 Merge into F:\MODELS\labels.yml under Models: if model4 is not already listed:
 
   model4.yml:
-    hash: "8e730000015d2e07"
+    hash: "05730000025d4c0d"
     name: "XK 110s"
     mod1id: 1
     mod1type: 6

@@ -15,6 +15,7 @@ Ordered notes from the setup work that led to this documentation pack.
 11. Switch map locked: **SF** hold, **SE** modes, **SA** gain, **SB** lights, **SC** rates, **SD** timer.  
 12. **Coll. pitch source = PIT**; pitch curves on **PIT input**; **AUX1 = CYC3** kept.  
 13. GitHub repo + droppable **SD Card Files** backup created from live F: card (`model3.yml`, image, RGBLED, GaugeRotary).  
+14. **2026-08-02 refresh** from F: `model3.yml` — Normal FM **aileron trim ≈ +22**; main screen **GaugeRotary → Gauge**; SC label text **Low/Mid/High**; dropped unused `WIDGETS/GaugeRotary` from this pack; labels hash updated.
 
 ## Related
 

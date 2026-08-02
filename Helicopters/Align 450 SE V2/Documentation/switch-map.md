@@ -1,6 +1,6 @@
 # Switch map & keybinds
 
-![Align 450 SE V2](assets/Align450.png)
+![Align 450 SE V2](assets/Align-450-SE-V2.png)
 
 Physical controls on the TX16S for **Align 450 SE V2**.
 
@@ -12,7 +12,7 @@ Physical controls on the TX16S for **Align 450 SE V2**.
 | **SE** | **Flight mode** | ↓ Normal · − Idle1 · ↑ Idle2 |
 | **SA** | **Gyro gain** | 3-pos HH / rate values as tuned |
 | **SB** | **RGB lights** | Scripts: `blue` / `sapp` / `off` |
-| **SC** | **Dual rates** | ↓ Low · − Medium · ↑ High |
+| **SC** | **Dual rates** | Low · Medium · High (screen: `SC - Rates Low/Mid/High`) |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 
 Confirm live labels on your radio if you remapped anything after this backup.

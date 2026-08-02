@@ -1,7 +1,7 @@
 semver: 2.12.0
 header: 
-   name: "Align 450 SE V2"
-   bitmap: "Align450.png"
+   name: "Esky HBK 2"
+   bitmap: "HBK2.png"
    labels: ""
 timers: 
    0:
@@ -146,77 +146,6 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 4
-   srcRaw: "I4"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 3
-      value: 2
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 4
-   srcRaw: "MAX"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: -40
-   offset: 0
-   swtch: "SA0"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 4
-   srcRaw: "MAX"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 28
-   offset: 0
-   swtch: "SA1"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 4
-   srcRaw: "MAX"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 60
-   offset: 0
-   swtch: "SA2"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
    destCh: 5
    srcRaw: "CYC3"
    carryTrim: 0
@@ -244,7 +173,7 @@ limitData:
       curve: 0
       name: "Thr"
    1:
-      min: 200
+      min: 0
       max: 0
       ppmCenter: 0
       offset: 0
@@ -253,12 +182,12 @@ limitData:
       curve: 0
       name: "Ail"
    2:
-      min: 200
+      min: 0
       max: 0
       ppmCenter: 0
       offset: 0
       symetrical: 0
-      revert: 1
+      revert: 0
       curve: 0
       name: "Ele"
    3:
@@ -280,7 +209,7 @@ limitData:
       curve: 0
       name: "Gain"
    5:
-      min: 200
+      min: 0
       max: 0
       ppmCenter: 0
       offset: 0
@@ -308,7 +237,7 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ail"
-   weight: 75
+   weight: 70
    offset: 0
    swtch: "SC1"
    curve: 
@@ -350,7 +279,7 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ele"
-   weight: 75
+   weight: 70
    offset: 0
    swtch: "SC1"
    curve: 
@@ -392,7 +321,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 65
+   weight: 60
    offset: 0
    swtch: "SC0"
    curve: 
@@ -406,7 +335,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 80
+   weight: 75
    offset: 0
    swtch: "SC1"
    curve: 
@@ -420,7 +349,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 100
+   weight: 90
    offset: 0
    swtch: "SC2"
    curve: 
@@ -510,63 +439,63 @@ points:
    2:
       val: -10
    3:
-      val: 45
+      val: 40
    4:
-      val: 80
+      val: 70
    5:
       val: -50
    7:
       val: 50
    8:
-      val: -35
+      val: -25
    9:
-      val: 15
+      val: 10
    10:
       val: 40
    11:
       val: 55
    12:
-      val: 70
+      val: 65
    13:
       val: -50
    15:
       val: 50
    16:
-      val: 70
+      val: 65
    17:
-      val: 75
+      val: 70
    18:
-      val: 80
-   19:
-      val: 80
-   20:
-      val: 80
-   21:
-      val: -75
-   22:
-      val: -40
-   24:
-      val: 40
-   25:
       val: 75
+   19:
+      val: 75
+   20:
+      val: 75
+   21:
+      val: -55
+   22:
+      val: -30
+   24:
+      val: 35
+   25:
+      val: 60
    26:
-      val: 80
+      val: 75
    27:
       val: 85
    28:
-      val: 90
+      val: 85
    29:
-      val: 90
+      val: 85
    30:
-      val: 90
+      val: 85
    31:
-      val: -90
+      val: -65
    32:
-      val: -50
+      val: -35
    34:
-      val: 50
+      val: 40
    35:
-      val: 90
+      val: 70
 customFn: 
    0:
       swtch: "SD2"
@@ -595,14 +524,10 @@ swashR:
    aileronSource: I0
    elevatorSource: I1
    collectiveWeight: 60
-   aileronWeight: -60
-   elevatorWeight: -60
+   aileronWeight: 60
+   elevatorWeight: 60
 flightModeData: 
    0:
-      trim: 
-         0:
-            value: 22
-            mode: 0
       name: "Normal"
       swtch: "NONE"
       fadeIn: 0
@@ -686,19 +611,24 @@ jitterFilter: GLOBAL
 moduleData: 
    1:
       type: TYPE_MULTIMODULE
-      subType: 6,0
+      subType: 15,2
       channelsStart: 0
       channelsCount: 6
-      failsafeMode: NOT_SET
+      failsafeMode: CUSTOM
       mod: 
          multi: 
             disableTelemetry: 0
-            disableMapping: 1
-            autoBindMode: 1
+            disableMapping: 0
+            autoBindMode: 0
             lowPowerMode: 0
             receiverTelemetryOff: 0
             receiverHigherChannels: 0
-            optionValue: 1
+            optionValue: 14
+failsafeChannels: 
+   0:
+      val: -1024
+   4:
+      val: 410
 inputNames: 
    0:
       val: "Ail"
@@ -717,7 +647,7 @@ screenData:
       layoutData: 
          zones: 
             0:
-               widgetName: Gauge
+               widgetName: GaugeRotary
                widgetData: 
                   options: 
                      0:
@@ -733,9 +663,13 @@ screenData:
                         value: 
                            signedValue: 1024
                      3:
-                        type: Color
+                        type: Bool
                         value: 
-                           color: COLIDX2
+                           boolValue: 0
+                     4:
+                        type: Signed
+                        value: 
+                           signedValue: 1
             1:
                widgetName: Gauge
                widgetData: 
@@ -853,30 +787,6 @@ screenData:
       LayoutId: Layout2x4
       layoutData: 
          zones: 
-            0:
-               widgetName: Text
-               widgetData: 
-                  options: 
-                     0:
-                        type: String
-                        value: 
-                           stringValue: SA - Gyro Gain
-                     1:
-                        type: Color
-                        value: 
-                           color: COLIDX5
-                     2:
-                        type: Unsigned
-                        value: 
-                           unsignedValue: 0
-                     3:
-                        type: Bool
-                        value: 
-                           boolValue: 0
-                     4:
-                        type: Unsigned
-                        value: 
-                           unsignedValue: 1
             1:
                widgetName: Text
                widgetData: 
@@ -945,30 +855,6 @@ screenData:
                         type: Bool
                         value: 
                            boolValue: 0
-                     4:
-                        type: Unsigned
-                        value: 
-                           unsignedValue: 1
-            4:
-               widgetName: Value
-               widgetData: 
-                  options: 
-                     0:
-                        type: Source
-                        value: 
-                           source: ch(4)
-                     1:
-                        type: Color
-                        value: 
-                           color: COLIDX1
-                     2:
-                        type: Bool
-                        value: 
-                           boolValue: 0
-                     3:
-                        type: Unsigned
-                        value: 
-                           unsignedValue: 1
                      4:
                         type: Unsigned
                         value: 
@@ -1212,7 +1098,7 @@ topbarData:
                0:
                   type: String
                   value: 
-                     stringValue: Align 450 SE V2
+                     stringValue: Esky HBK 2
                1:
                   type: Color
                   value: 

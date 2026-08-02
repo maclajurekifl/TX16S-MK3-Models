@@ -63,7 +63,7 @@ Droppable EdgeTX layout (merge onto SD root):
 
 [`../SD Card Files/`](../SD%20Card%20Files/)
 
-Includes `MODELS/model4.yml`, bitmap `XK110.png`, RGBLED scripts used by **SB**, and the **GaugeRotary** widget.
+Includes `MODELS/model4.yml`, bitmap `XK110.png`, and RGBLED scripts used by **SB**. Screen gauges use built-in EdgeTX widgets.
 
 ---
 

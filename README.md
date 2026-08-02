@@ -33,6 +33,7 @@ Details: each model’s `Documentation/RESTORE.md`.
 | Category | Model | Documentation | Status |
 |----------|--------|---------------|--------|
 | Helicopters | [Align 450 SE V2](Helicopters/Align%20450%20SE%20V2/Documentation/README.md) | Homepage + guides | Backed up |
+| Helicopters | [Honey Bee King 2](Helicopters/Honey%20Bee%20King%202/Documentation/README.md) | Homepage + guides | Backed up |
 | Helicopters | [XK K110S](Helicopters/XK%20K110S/Documentation/README.md) | Homepage + guides | Backed up |
 | Drones | — | — | Placeholder |
 
@@ -42,6 +43,14 @@ Details: each model’s `Documentation/RESTORE.md`.
 - [SD Card Files](Helicopters/Align%20450%20SE%20V2/SD%20Card%20Files/)
 - [Switch map](Helicopters/Align%20450%20SE%20V2/Documentation/switch-map.md)
 - [Flying guide](Helicopters/Align%20450%20SE%20V2/Documentation/flying-guide.md)
+
+### Honey Bee King 2
+
+- [Homepage](Helicopters/Honey%20Bee%20King%202/Documentation/README.md)
+- [SD Card Files](Helicopters/Honey%20Bee%20King%202/SD%20Card%20Files/)
+- [Switch map](Helicopters/Honey%20Bee%20King%202/Documentation/switch-map.md)
+- [R86C wiring](Helicopters/Honey%20Bee%20King%202/Documentation/r86c-wiring.md)
+- [Flying guide](Helicopters/Honey%20Bee%20King%202/Documentation/flying-guide.md)
 
 ### XK K110S
 

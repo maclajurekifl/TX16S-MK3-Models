@@ -1,6 +1,6 @@
 # Align 450 SE V2
 
-![Align 450 SE V2](assets/Align-450-SE-V2-Transmitter.png)
+![Align 450 SE V2](assets/Align-450-SE-V2.png)
 
 **Flybar Align T-Rex 450 SE V2** programmed on a Radiomaster **TX16S MK3** (EdgeTX), bound to a Spektrum **AR6200**.
 
@@ -64,7 +64,7 @@ Droppable EdgeTX layout (merge onto SD root):
 
 [`../SD Card Files/`](../SD%20Card%20Files/)
 
-Includes `MODELS/model3.yml`, bitmap, RGBLED scripts used by **SB**, and the **GaugeRotary** widget.
+Includes `MODELS/model3.yml`, bitmap, and RGBLED scripts used by **SB**. Screen gauges use built-in EdgeTX widgets.
 
 ---
 

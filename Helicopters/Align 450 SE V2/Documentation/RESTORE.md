@@ -7,8 +7,7 @@
    - `MODELS\`
    - `IMAGES\`
    - `SCRIPTS\`
-   - `WIDGETS\`
-3. Merge when Windows asks (do not replace the whole `SCRIPTS` or `WIDGETS` tree if you have other models’ assets — merging is fine).
+3. Merge when Windows asks (do not replace the whole `SCRIPTS` tree if you have other models’ assets — merging is fine).
 
 ## Model slot
 
@@ -24,9 +23,8 @@ This backup uses **`MODELS/model3.yml`** (slot 3 on this radio).
 | `MODELS/model3.yml` | Full model (heli CCPM, mixes, screens, SF) |
 | `IMAGES/Align450.png` | Model bitmap |
 | `SCRIPTS/RGBLED/blue`, `sapp`, `off` | SB light special functions |
-| `WIDGETS/GaugeRotary/` | Used on model telemetry screen |
 
-Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, Radio Info, Date Time) ship with EdgeTX — not duplicated here.
+Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, Radio Info, Date Time) ship with EdgeTX — not duplicated here. This model no longer uses the custom **GaugeRotary** widget.
 
 ## After copy
 

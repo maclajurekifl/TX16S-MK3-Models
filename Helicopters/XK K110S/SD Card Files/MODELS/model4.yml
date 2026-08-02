@@ -586,7 +586,7 @@ screenData:
       layoutData: 
          zones: 
             0:
-               widgetName: GaugeRotary
+               widgetName: Gauge
                widgetData: 
                   options: 
                      0:
@@ -596,19 +596,15 @@ screenData:
                      1:
                         type: Signed
                         value: 
-                           signedValue: -1
+                           signedValue: -1024
                      2:
                         type: Signed
                         value: 
-                           signedValue: -1
+                           signedValue: 1024
                      3:
-                        type: Bool
+                        type: Color
                         value: 
-                           boolValue: 0
-                     4:
-                        type: Signed
-                        value: 
-                           signedValue: 1
+                           color: COLIDX2
             1:
                widgetName: Gauge
                widgetData: 
