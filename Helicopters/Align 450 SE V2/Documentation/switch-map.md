@@ -1,6 +1,6 @@
 # Switch map & keybinds
 
-![Align 450 SE V2](assets/Align-450-SE-V2.png)
+![Align 450 SE V2](assets/Align450.png)
 
 Physical controls on the TX16S for **Align 450 SE V2**.
 

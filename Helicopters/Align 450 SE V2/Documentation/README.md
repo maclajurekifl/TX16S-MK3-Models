@@ -1,6 +1,6 @@
 # Align 450 SE V2
 
-![Align 450 SE V2](assets/Align-450-SE-V2.png)
+![Align 450 SE V2](assets/Align-450-SE-V2-Transmitter.png)
 
 **Flybar Align T-Rex 450 SE V2** programmed on a Radiomaster **TX16S MK3** (EdgeTX), bound to a Spektrum **AR6200**.
 
