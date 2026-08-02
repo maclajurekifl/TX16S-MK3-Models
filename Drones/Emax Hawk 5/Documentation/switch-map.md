@@ -36,8 +36,8 @@ No custom limit table (same idea as **AERO**): default **±100%**. Watch the **O
 ## Screens
 
 1. **Flight** — Thr rotary, Roll/Pitch/Yaw gauges, timer, AUX outputs (CH5+)  
-2. **Switches SA–SD** — label Up/Mid/Down · live value right  
-3. **Switches SE–SW1** — same  
+2. **Switches SA–SD** — left column SA→SD labels · right column live values / timer  
+3. **Switches SE–SW1** — left SE/SF/SH/SW1 labels · right live values  
 4. **Info** — model/RF text, TX voltage, timer, radio link  
 
 ## Before arm
