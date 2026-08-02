@@ -16,7 +16,7 @@ Multirotor model aligned with **AERO** (`model1` on your SD): airplane type, dir
 |----|------------|------|
 | 1–4 | Roll/Pitch/Thr/Yaw inputs | AETR sticks |
 | 5 | **SE** | Mode (Lvl / Horiz / Acro) |
-| 6 | **SF0** −100 / **SF1** +100 | Arm (Up=SAFE, Down=ARMED) |
+| 6 | **SF0** −100 / **SF2** +100 | Arm (Up=SAFE, Down=ARMED) |
 | 7 | **SH** | Beep |
 | 8 | **SA** | LvlInt (Hi / Mid / Lo) |
 | 9 | **SB** | LED |

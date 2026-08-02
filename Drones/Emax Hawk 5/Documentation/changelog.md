@@ -3,7 +3,7 @@
 ## 2026-08-02 (evening)
 
 - Switch rule: **Up = safer / more level**, Down = more 3D. SE → Level / Horizon / Acro. SC already Low/Mid/High rates Up→Down.
-- SF arm: **SF0 Up = CH6 −100 + thr cut**, **SF1 Down = CH6 +100** (fixes inverted hold and dead throttle stick).
+- SF arm: **SF0 Up = CH6 −100 + thr cut**, **SF2 Down = CH6 +100** (2POS Down is SF2, not SF1 — SF1 left CH6 mid so motors never armed).
 - Widget labels all Up/Mid/Down order; BF AUX CLI updated for Angle-high / Horizon-mid.
 
 ## 2026-08-02

@@ -17,7 +17,7 @@ save
 
 | Line | Meaning |
 |------|---------|
-| `aux 0 0 1 …` | **ARM** on **AUX2** (CH6) high — **SF Down (SF1)** armed / **SF Up (SF0)** disarmed |
+| `aux 0 0 1 …` | **ARM** on **AUX2** (CH6) high — **SF↓ (SF2)** armed / **SF↑ (SF0)** disarmed |
 | `aux 1 1 0 1700 2100` | **ANGLE** on **AUX1** (CH5) high — **SE Up** Level |
 | `aux 2 2 0 1300 1700` | **HORIZON** on **AUX1** mid — **SE Mid** Horizon |
 | Low AUX1 | neither → **Acro** (**SE Down**) |
@@ -35,7 +35,7 @@ save
 
 Until you paste the CLI in this file, SE won’t change flight modes in BF.
 
-Radio arm uses two mixes: **SF0 (Up)** → CH6 **−100** (disarm) + thr override; **SF1 (Down)** → CH6 **+100** (arm), thr stick live.
+Radio arm uses two mixes: **SF0 (Up)** → CH6 **−100** (disarm) + thr override; **SF2 (Down)** → CH6 **+100** (arm), thr stick live. (On 2POS switches, Down is `SF2`, not `SF1`.)
 
 ## Level intensity
 

@@ -147,7 +147,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SF1"
+   swtch: "SF2"
    delayUp: 0
    delayDown: 0
    speedUp: 0
