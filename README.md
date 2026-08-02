@@ -35,7 +35,7 @@ Details: each model’s `Documentation/RESTORE.md`.
 | Helicopters | [Align 450 SE V2](Helicopters/Align%20450%20SE%20V2/Documentation/README.md) | Homepage + guides | Backed up |
 | Helicopters | [Honey Bee King 2](Helicopters/Honey%20Bee%20King%202/Documentation/README.md) | Homepage + guides | Backed up |
 | Helicopters | [XK K110S](Helicopters/XK%20K110S/Documentation/README.md) | Homepage + guides | Backed up |
-| Drones | — | — | Placeholder |
+| Drones | [Emax Hawk 5](Drones/Emax%20Hawk%205/Documentation/README.md) | Homepage + guides | Pack ready — bind + BF AUX rematch |
 
 ### Align 450 SE V2
 
@@ -59,3 +59,11 @@ Details: each model’s `Documentation/RESTORE.md`.
 - [Switch map](Helicopters/XK%20K110S/Documentation/switch-map.md)
 - [Calibration order](Helicopters/XK%20K110S/Documentation/calibration.md)
 - [Flying guide](Helicopters/XK%20K110S/Documentation/flying-guide.md)
+
+### Emax Hawk 5
+
+- [Homepage](Drones/Emax%20Hawk%205/Documentation/README.md)
+- [SD Card Files](Drones/Emax%20Hawk%205/SD%20Card%20Files/)
+- [Switch map](Drones/Emax%20Hawk%205/Documentation/switch-map.md)
+- [Betaflight modes](Drones/Emax%20Hawk%205/Documentation/betaflight-modes.md)
+- [RF & binding](Drones/Emax%20Hawk%205/Documentation/rf-and-binding.md)
