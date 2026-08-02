@@ -2,14 +2,18 @@
 
 5-inch freestyle quad (Emax Magnum Omnibus F4 · Betaflight **3.2.2**) for the TX16S MK3.
 
+**Full multirotor model** — structured like your existing **AERO** (`model1.yml`): direct switch→channel mixes, Outputs-first screens, no heli/swash. Switch *habits* match the helis (SA–SF).
+
 | | |
 |--|--|
-| **Model file** | `model6.yml` · radio name **Emax Hawk 5** |
-| **RF** | MULTI · **FlySky AFHDS 2A** · **PPM_IBUS** · 10 ch |
-| **FC RX path** | PPM into Omnibus (matches your dump: `feature RX_PPM`) |
-| **Stick order** | AETR (same as BF `map AETR1234`) |
+| **Model file** | `model6.yml` · **Emax Hawk 5** |
+| **Reference style** | Radio `model1` **AERO** (not HBK2) |
+| **Type** | Airplane/multirotor · heli disabled · no custom ±200% limits |
+| **RF** | **External** MULTI · AFHDS 2A · PPM_IBUS · 10 ch |
+| **Inputs** | **Roll / Pitch / Thr / Yaw** (AETR) |
+| **AUX** | SE→CH5 · SF→CH6 · SG→CH7 · SA→CH8 · SB→CH9 · SW1→CH10 |
 
-Previously flown on a Turnigy **FS-MT6**. This pack moves control to the TX16S with a **heli-like switch layout**.
+Previously flown on a Turnigy **FS-MT6**.
 
 ## Important
 

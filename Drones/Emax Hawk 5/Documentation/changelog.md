@@ -2,9 +2,6 @@
 
 ## 2026-08-02
 
-- Initial pack: `model6.yml` for TX16S MK3.
-- Switches aligned with heli convention (SA intensity, SB lights, SC rates, SD timer, SE modes).
-- **SF** = arm + hold (single switch); SG = beeper; SW1 = turtle AUX spare.
-- RF: MULTI AFHDS 2A PPM_IBUS, 10 channels.
-- Docs: restore, setup, switch map, BF AUX rematch, bind notes.
-- Assets: GaugeRotary + RGBLED scripts (shared pattern with HBK2).
+- Rebuilt again using live SD **AERO** (`model1.yml`) as the multirotor pattern: direct switch→channel mixes, Outputs-first screens, no `limitData` / no swash.
+- Kept heli *habits* (SA–SF, SC rates, SD timer, SB RGB) and Hawk External AFHDS 2A RF.
+- Inputs **Roll / Pitch / Thr / Yaw**; CH5–10 = SE/SF/SG/SA/SB/SW1.

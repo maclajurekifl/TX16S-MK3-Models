@@ -29,9 +29,12 @@ This pack uses **`MODELS/model6.yml`** (slot **6** — after HBK2 `model5`).
 1. Eject SD / leave USB storage.
 2. Power on → select **Emax Hawk 5**.
 3. Confirm screens + SB lights.
-4. Bind AFHDS 2A (see [rf-and-binding.md](rf-and-binding.md)).
-5. Update Betaflight AUX (see [betaflight-modes.md](betaflight-modes.md)).
-6. Props off → verify arm / modes / beeper on the bench.
+4. Confirm model is **not** showing Heli setup (airplane/multirotor). Inputs = Roll/Pitch/Thr/Yaw; outputs ±100%.
+5. Bind on **External RF** AFHDS 2A (see [rf-and-binding.md](rf-and-binding.md)).
+6. Update Betaflight AUX (see [betaflight-modes.md](betaflight-modes.md)).
+7. Props off → verify arm / modes / beeper on the bench.
+
+**Replace** the old `model6.yml` on the SD if you already copied the heli-based version.
 
 ## Related
 

@@ -4,7 +4,7 @@
 
 | Setting | Value |
 |---------|--------|
-| Module | Internal **MULTI** |
+| Module | **External RF** (JR bay **MULTI** / 4-in-1) — internal **ELRS** unused for this model |
 | Type | **FlySky** / **AFHDS 2A** (`FlSky 2A`) |
 | Sub-type | **PPM + IBUS** (yaml `28,1`) — matches FC `RX_PPM` |
 | Channels | **1–10** |
@@ -16,7 +16,7 @@ If bind fails, try the other PPM subtype (**PPM_SBUS**) or PWM variants once, th
 ## Bind (typical FlySky RX)
 
 1. Props off.
-2. TX16S → model **Emax Hawk 5** → Model setup → Internal RF → **Bind**.
+2. TX16S → model **Emax Hawk 5** → Model setup → **External RF** → **Bind**.
 3. Power the RX / quad into bind (button or bind plug — depends on the RX under the top plate).
 4. Wait for solid LED → exit bind → power cycle.
 
