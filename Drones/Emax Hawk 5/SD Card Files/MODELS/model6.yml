@@ -121,7 +121,7 @@ mixData:
    name: "Mode"
  -
    destCh: 5
-   srcRaw: "SF"
+   srcRaw: "MAX"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -130,7 +130,24 @@ mixData:
    flightModes: 000000000
    weight: -100
    offset: 0
-   swtch: "NONE"
+   swtch: "SF0"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Safe"
+ -
+   destCh: 5
+   srcRaw: "MAX"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "SF1"
    delayUp: 0
    delayDown: 0
    speedUp: 0
@@ -850,7 +867,7 @@ screenData:
                      0:
                         type: String
                         value:
-                           stringValue: "SF Arm  SAFE/ARMED U/D"
+                           stringValue: "SF Hold  SAFE/ARMED U/D"
                      1:
                         type: Color
                         value:

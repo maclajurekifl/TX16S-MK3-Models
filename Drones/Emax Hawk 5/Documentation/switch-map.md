@@ -15,7 +15,7 @@ Widget labels are always **Up / Mid / Down** (high → low).
 | **SC** | Low rates | Mid rates | High rates | — (inputs only) |
 | **SD** | Pause | Run | Reset | — |
 | **SE** | **Level** | **Horizon** | **Acro** | CH5 Mode |
-| **SF** | **SAFE** (thr cut) | — | **ARMED** | CH6 Arm |
+| **SF** | **SAFE** (thr cut, CH6 low) | — | **ARMED** (CH6 high) | CH6 |
 | **SG** | *(unused)* | | | — |
 | **SH** | Off | — | On (hold) | CH7 |
 | **SW1** (btn **1**) | Off | — | Turtle (press again to Off) | CH10 |
