@@ -432,7 +432,7 @@ inputNames:
    0:
       val: "Roll"
    1:
-      val: "Pitch"
+      val: "Pitc"
    2:
       val: "Thr"
    3:
@@ -1266,6 +1266,30 @@ topbarData:
                   value: 
                      unsignedValue: 1
       1:
+         widgetName: ModelBmp
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX3
+               1:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+               2:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               3:
+                  type: Color
+                  value: 
+                     color: COLIDX5
+               4:
+                  type: Bool
+                  value: 
+                     boolValue: 1
+      2:
          widgetName: Value
          widgetData: 
             options: 
@@ -1289,7 +1313,7 @@ topbarData:
                   type: Unsigned
                   value: 
                      unsignedValue: 0
-      2:
+      3:
          widgetName: Radio Info
          widgetData: 
             options: 
@@ -1305,7 +1329,7 @@ topbarData:
                   type: Color
                   value: 
                      color: 0x48AC50
-      3:
+      4:
          widgetName: Date Time
          widgetData: 
             options: 
@@ -1315,14 +1339,16 @@ topbarData:
                      color: COLIDX1
 topbarWidgetWidth: 
    0:
-      val: 4
+      val: 3
    1:
-      val: 2
+      val: 1
    2:
-      val: 2
+      val: 1
    3:
-      val: 2
-view: 1
+      val: 1
+   4:
+      val: 1
+view: 0
 modelRegistrationID: "Hawk5---"
 customSwitches: 
    SW1:
