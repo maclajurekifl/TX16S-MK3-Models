@@ -30,9 +30,12 @@ No custom limit table (same idea as **AERO**): default **±100%**. Watch the **O
 
 ## Screens
 
-1. **Main** — channel Outputs + timer + SF (AERO-style)  
-2. **Outputs** full page  
-3. **Legend** — switch cheat sheet + thr gauge + SE/SF values  
+1. **Flight** — Thr rotary, Roll/Pitch/Yaw gauges, timer, AUX outputs (CH5+)  
+2. **Switches SA–SD** — label + positions left · live value/impact right  
+3. **Switches SE–SW1** — mode/arm/beeper/turtle · live values right  
+4. **Info** — model/RF text, TX voltage, timer, radio link  
+
+Top bar: name · TX voltage · radio info · date (no duplicates).  
 
 ## Before arm
 
