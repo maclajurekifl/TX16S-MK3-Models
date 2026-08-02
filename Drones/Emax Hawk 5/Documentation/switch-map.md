@@ -12,7 +12,8 @@
 | **SD** | Timer run / reset | — |
 | **SE** | Level / Acro / Horizon | CH5 Mode |
 | **SF** | SAFE / ARMED (+ thr cut when safe) | CH6 Arm |
-| **SG** | Beeper | CH7 |
+| **SG** | *(unused)* | — |
+| **SH** | Beeper (hold to beep) | CH7 |
 | **SW1** | Turtle | CH10 |
 
 ## Sticks → inputs (AETR)
@@ -32,7 +33,7 @@ No custom limit table (same idea as **AERO**): default **±100%**. Watch the **O
 
 1. **Flight** — Thr rotary, Roll/Pitch/Yaw gauges, timer, AUX outputs (CH5+)  
 2. **Switches SA–SD** — label + positions left · live value/impact right  
-3. **Switches SE–SW1** — mode/arm/beeper/turtle · live values right  
+3. **Switches SE–SW1** — mode/arm/beeper(SH)/turtle · live values right  
 4. **Info** — model/RF text, TX voltage, timer, radio link  
 
 Top bar: name · TX voltage · radio info · date (no duplicates).  

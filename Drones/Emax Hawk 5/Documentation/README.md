@@ -11,7 +11,7 @@
 | **Type** | Airplane/multirotor · heli disabled · no custom ±200% limits |
 | **RF** | **External** MULTI · AFHDS 2A · PPM_IBUS · 10 ch |
 | **Inputs** | **Roll / Pitch / Thr / Yaw** (AETR) |
-| **AUX** | SE→CH5 · SF→CH6 · SG→CH7 · SA→CH8 · SB→CH9 · SW1→CH10 |
+| **AUX** | SE→CH5 · SF→CH6 · SH→CH7 · SA→CH8 · SB→CH9 · SW1→CH10 |
 
 Previously flown on a Turnigy **FS-MT6**.
 

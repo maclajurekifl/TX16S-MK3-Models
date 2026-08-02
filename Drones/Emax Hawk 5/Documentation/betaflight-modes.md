@@ -21,13 +21,24 @@ save
 | `aux 1 1 0 900 1300` | **ANGLE** on **AUX1** (CH5) low — **SE** Level |
 | `aux 2 2 0 1700 2100` | **HORIZON** on **AUX1** high — **SE** Horizon |
 | Mid AUX1 | neither → **Acro** (**SE** centre) |
-| `aux 3 13 2 …` | **BEEPER** on **AUX3** (CH7) — **SG** high |
+| `aux 3 13 2 …` | **BEEPER** on **AUX3** (CH7) — **SH** held |
 
-## Optional later
+## How Level / Acro / Horizon works
 
-- **SA → CH8 / AUX4:** adjrange for Angle strength (not required to fly).
-- **SB → CH9:** LED strip / mode if you enable LED_STRIP.
-- **SW1 → CH10:** turtle / flip-over needs a **newer** Betaflight than 3.2.2.
+Nothing heli-like on the radio — **SE** is mixed straight to **CH5**. Betaflight reads that AUX:
+
+| SE | CH5 | BF (after AUX CLI) |
+|----|-----|---------------------|
+| Low | ~1000 | **ANGLE** (Level) |
+| Mid | ~1500 | neither → **Acro** |
+| High | ~2000 | **HORIZON** |
+
+Until you paste the CLI in this file, SE won’t change flight modes in BF.
+
+## Level intensity
+
+Already on **SA → CH8**. It only *changes feel* if you later add a BF **adjrange** on Angle; the radio already sends the channel. **SG** is left free.
+
 
 ## Keep
 

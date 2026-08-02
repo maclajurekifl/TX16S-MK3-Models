@@ -15,7 +15,7 @@ Multirotor model aligned with **AERO** (`model1` on your SD): airplane type, dir
 | 1–4 | Roll/Pitch/Thr/Yaw inputs | AETR sticks |
 | 5 | **SE** | Mode |
 | 6 | **SF** | Arm |
-| 7 | **SG** | Beep |
+| 7 | **SH** | Beep |
 | 8 | **SA** | LvlInt |
 | 9 | **SB** | LED |
 | 10 | **SW1** | Turtle |
