@@ -5,6 +5,7 @@
 1. Open: `Drones/Emax Hawk 5/SD Card Files/`
 2. Copy **everything inside** that folder to the SD card root (e.g. `F:\`):
    - `MODELS\`
+   - `IMAGES\`
    - `SCRIPTS\`
    - `WIDGETS\`
 3. Merge when Windows asks.
@@ -21,6 +22,7 @@ This pack uses **`MODELS/model6.yml`** (slot **6** — after HBK2 `model5`).
 | Path | Why |
 |------|-----|
 | `MODELS/model6.yml` | Full model (AETR, AUX, rates, screens, SF) |
+| `IMAGES/Hawk5.png` | Model select bitmap (192×114) |
 | `SCRIPTS/RGBLED/blue`, `sapp`, `off` | SB TX light scripts (same as helis) |
 | `WIDGETS/GaugeRotary/` | Throttle rotary gauge on main screen |
 

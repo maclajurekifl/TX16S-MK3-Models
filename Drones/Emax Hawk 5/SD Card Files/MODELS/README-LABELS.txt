@@ -6,7 +6,7 @@ Merge into F:\MODELS\labels.yml under Models: if model6 is not already listed:
     mod1type: 6
     mod1rf: 28
     labels: ""
-    bitmap: ""
+    bitmap: "Hawk5.png"
 
 NOTE: Dropping model6.yml onto an SD that already uses slot 6 for another model
 will overwrite that model. Rename to the next free modelN.yml and update labels.yml

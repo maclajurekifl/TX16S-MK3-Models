@@ -1,5 +1,9 @@
 # Changelog — Emax Hawk 5
 
+## 2026-08-02 (night)
+
+- Doc hero `assets/Hawk5.png` (256×192, same as heli READMEs) and radio bitmap `IMAGES/Hawk5.png` (192×114).
+
 ## 2026-08-02 (evening)
 
 - Switch rule: **Up = safer / more level**, Down = more 3D. SE → Level / Horizon / Acro. SC already Low/Mid/High rates Up→Down.

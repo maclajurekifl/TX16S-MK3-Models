@@ -1,5 +1,7 @@
 # Emax Hawk 5
 
+![Emax Hawk 5](assets/Hawk5.png)
+
 5-inch freestyle quad (Emax Magnum Omnibus F4 · Betaflight **3.2.2**) for the TX16S MK3.
 
 **Full multirotor model** — structured like your existing **AERO** (`model1.yml`): direct switch→channel mixes, Outputs-first screens, no heli/swash. Switch *habits* match the helis (SA–SF). **Up = safer / more level**; labels are Up/Mid/Down.
