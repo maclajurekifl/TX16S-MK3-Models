@@ -8,7 +8,7 @@ Practical order of use after the radio and mechanics are set up.
 2. **SE = Normal**, **SC = Low rates**
 3. Pack: prefer **3S** for real hovering (see [battery notes](battery-notes.md))
 4. Check blades, links, tail free; gyro HH selected (**SA** positive)
-5. Range / bind as you normally do for Spektrum
+5. Range / bind as you normally do for FrSky D8 (D8R-II Plus)
 
 ## Spool and hover (Normal)
 

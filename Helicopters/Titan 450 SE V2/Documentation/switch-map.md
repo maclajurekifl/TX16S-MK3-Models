@@ -1,6 +1,6 @@
 # Switch map & keybinds
 
-![Titan 450 SE V2](assets/Align450.png)
+![Titan 450 SE V2](assets/Titan450.png)
 
 Physical controls on the TX16S for **Titan 450 SE V2**.
 
@@ -9,7 +9,7 @@ Physical controls on the TX16S for **Titan 450 SE V2**.
 | Switch | Function | Positions (typical) |
 |--------|----------|---------------------|
 | **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
-| **SE** | **Flight mode** | â†“ Normal · âˆ’ Idle1 · â†‘ Idle2 |
+| **SE** | **Flight mode** | ↓ Normal · − Idle1 · ↑ Idle2 |
 | **SA** | **Gyro gain** | 3-pos HH / rate values as tuned |
 | **SB** | **RGB lights** | Scripts: `blue` / `sapp` / `off` |
 | **SC** | **Dual rates** | Low · Medium · High (screen: `SC - Rates Low/Mid/High`) |
@@ -26,7 +26,7 @@ Confirm live labels on your radio if you remapped anything after this backup.
 | Elevator (right fore/aft) | Cyclic pitch |
 | Aileron (right left/right) | Cyclic roll |
 
-## Recommended "default" before spool
+## Recommended “default” before spool
 
 | Control | Set to |
 |---------|--------|
@@ -41,4 +41,4 @@ Confirm live labels on your radio if you remapped anything after this backup.
 - [How to fly](flying-guide.md)
 - [Flight modes & curves](flight-modes-and-curves.md)
 - [Dual rates & expo](dual-rates-and-expo.md)
-- [â† Model home](README.md)
+- [← Model home](README.md)

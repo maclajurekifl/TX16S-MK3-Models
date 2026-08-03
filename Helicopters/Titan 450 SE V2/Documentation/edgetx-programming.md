@@ -64,5 +64,5 @@ Keep Coll. pitch source as **PIT** (not CYC3, not Thr stick raw if PIT already c
 ## Related
 
 - [Flight modes & curves](flight-modes-and-curves.md)
-- [D8R-II Plus wiring](D8R-II Plus-wiring.md)
-- [â† Model home](README.md)
+- [D8R-II Plus wiring](d8r-ii-plus-wiring.md)
+- [← Model home](README.md)
