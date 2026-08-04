@@ -258,7 +258,7 @@ limitData:
       ppmCenter: 0
       offset: 0
       symetrical: 0
-      revert: 1
+      revert: 0
       curve: 0
       name: "Ele"
    3:
@@ -392,7 +392,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 65
+   weight: 40
    offset: 0
    swtch: "SC0"
    curve: 
@@ -406,7 +406,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 80
+   weight: 50
    offset: 0
    swtch: "SC1"
    curve: 
@@ -420,7 +420,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 100
+   weight: 60
    offset: 0
    swtch: "SC2"
    curve: 
@@ -510,9 +510,9 @@ points:
    2:
       val: -10
    3:
-      val: 45
+      val: 28
    4:
-      val: 80
+      val: 62
    5:
       val: -50
    7:
@@ -595,7 +595,7 @@ swashR:
    aileronSource: I0
    elevatorSource: I1
    collectiveWeight: 60
-   aileronWeight: -60
+   aileronWeight: 60
    elevatorWeight: -60
 flightModeData: 
    0:
@@ -698,7 +698,7 @@ moduleData:
             lowPowerMode: 0
             receiverTelemetryOff: 0
             receiverHigherChannels: 0
-            optionValue: 0
+            optionValue: 4
 inputNames: 
    0:
       val: "Ail"

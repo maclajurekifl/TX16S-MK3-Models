@@ -17,13 +17,13 @@ That is **not** fixed by pitch/throttle curves. Those reshape collective and hea
 | Medium | SC- | 75% | 30% |
 | High | SC↑ | 100% | 25% |
 
-### Rudder
+### Rudder (softened — servo hit ends ~30% stick)
 
 | Rates | Switch | Weight | Expo |
 |-------|--------|--------|------|
-| Low | SC↓ | 65% | 35% |
-| Medium | SC- | 80% | 25% |
-| High | SC↑ | 100% | 20% |
+| Low | SC↓ | **40%** | 35% |
+| Medium | SC- | **50%** | 25% |
+| High | SC↑ | **60%** | 20% |
 
 ## What “expo” means
 

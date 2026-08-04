@@ -20,14 +20,14 @@ It does **not** list curves. Curves are attached on:
 
 ### Normal
 
-**CTH — throttle**
+**CTH — throttle** (softened — motor was coming on hard)
 | X | Y |
 |---|---|
 | -100 | -100 |
 | -50 | -90 |
 | 0 | -10 |
-| 50 | 45 |
-| 100 | 80 |
+| 50 | **28** |
+| 100 | **62** |
 
 **CPI — pitch** (hover-centered, not 0 at mid)
 | X | Y |
@@ -79,7 +79,7 @@ It does **not** list curves. Curves are attached on:
 | 100 | 90 |
 
 ```
-Normal  CTH: -100,-100 | -50,-90 | 0,-10 | 50,45 | 100,80
+Normal  CTH: -100,-100 | -50,-90 | 0,-10 | 50,28 | 100,62
 Normal  CPI: -100,-35  | -50,15  | 0,40  | 50,55 | 100,70
 Idle1   CT1: -100,70   | -50,75  | 0,80  | 50,80 | 100,80
 Idle1   CP1: -100,-75  | -50,-40 | 0,0   | 50,40 | 100,75
