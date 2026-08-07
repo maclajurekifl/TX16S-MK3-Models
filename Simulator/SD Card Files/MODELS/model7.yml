@@ -1,0 +1,430 @@
+semver: 2.12.0
+header: 
+   name: "Simulator"
+   bitmap: "Sim.png"
+   labels: "All"
+thrTrim: 0
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 1
+displayChecklist: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+disableTelemetryWarning: 1
+showInstanceIds: 0
+checklistInteractive: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData: 
+ -
+   destCh: 0
+   srcRaw: "I0"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Ail"
+ -
+   destCh: 1
+   srcRaw: "I1"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Ele"
+ -
+   destCh: 2
+   srcRaw: "I2"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Thr"
+ -
+   destCh: 3
+   srcRaw: "I3"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Rud"
+expoData: 
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ail"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 0
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Ele"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 1
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: "Thr"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 2
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "Rud"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 3
+   flightModes: 000000000
+   name: ""
+curves: 
+points: 
+limitData: 
+   0:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Ail"
+   1:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Ele"
+   2:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Thr"
+   3:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: "Rud"
+customFn: 
+   0:
+      swtch: "SB0"
+      func: RGB_LED
+      def: "blue,1,1x"
+   1:
+      swtch: "SB1"
+      func: RGB_LED
+      def: "sapp,1,On"
+   2:
+      swtch: "SB2"
+      func: RGB_LED
+      def: "off,1,1x"
+thrTraceSrc: Thr
+switchWarning: 
+   SB:
+      pos: up
+rssiSource: none
+rfAlarms: 
+   warning: 45
+   critical: 42
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+moduleData: 
+   0:
+      type: TYPE_NONE
+   1:
+      type: TYPE_NONE
+inputNames: 
+   0:
+      val: "Ail"
+   1:
+      val: "Ele"
+   2:
+      val: "Thr"
+   3:
+      val: "Rud"
+potsWarnEnabled: 0
+screenData: 
+   0:
+      LayoutId: Layout2x4
+      layoutData: 
+         zones: 
+            0:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: Simulator
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX1
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 3
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            1:
+               widgetName: Text
+               widgetData: 
+                  options: 
+                     0:
+                        type: String
+                        value: 
+                           stringValue: SB = LEDs
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX2
+                     2:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 2
+                     3:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     4:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 1
+            4:
+               widgetName: Outputs
+               widgetData: 
+                  options: 
+                     0:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     1:
+                        type: Color
+                        value: 
+                           color: COLIDX1
+            5:
+               widgetName: ModelBmp
+               widgetData: 
+                  options: 
+                     0:
+                        type: Color
+                        value: 
+                           color: COLIDX3
+                     1:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 0
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Color
+                        value: 
+                           color: COLIDX5
+                     4:
+                        type: Bool
+                        value: 
+                           boolValue: 1
+         options: 
+            0:
+               type: Color
+               value: 
+                  color: COLIDX29
+            1:
+               type: Bool
+               value: 
+                  boolValue: 0
+topbarData: 
+   zones: 
+      0:
+         widgetName: Text
+         widgetData: 
+            options: 
+               0:
+                  type: String
+                  value: 
+                     stringValue: Simulator
+               1:
+                  type: Color
+                  value: 
+                     color: COLIDX29
+               2:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 4
+               3:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               4:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 1
+      1:
+         widgetName: ModelBmp
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX3
+               1:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+               2:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               3:
+                  type: Color
+                  value: 
+                     color: COLIDX5
+               4:
+                  type: Bool
+                  value: 
+                     boolValue: 1
+      2:
+         widgetName: Value
+         widgetData: 
+            options: 
+               0:
+                  type: Source
+                  value: 
+                     source: TX_VOLTAGE
+               1:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+               2:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               3:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 3
+               4:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+               5:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               6:
+                  type: Bool
+                  value: 
+                     boolValue: 1
+               7:
+                  type: Unsigned
+                  value: 
+                     unsignedValue: 0
+               8:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+               9:
+                  type: Color
+                  value: 
+                     color: COLIDX9
+               10:
+                  type: Bool
+                  value: 
+                     boolValue: 0
+      3:
+         widgetName: Radio Info
+         widgetData: 
+            options: 
+               0:
+                  type: Color
+                  value: 
+                     color: COLIDX1
+viewData: 
