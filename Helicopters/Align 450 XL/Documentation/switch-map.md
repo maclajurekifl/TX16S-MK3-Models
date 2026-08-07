@@ -12,7 +12,7 @@ Physical controls on the TX16S for **Align 450 XL**.
 | **SE** | **Flight mode** | ↓ Normal · − Idle1 · ↑ Idle2 |
 | **SA** | **Gyro gain** | 3-pos → CH5 if your gyro has a remote gain lead |
 | **SB** | **RGB lights** | Scripts: `blue` / `sapp` / `off` |
-| **SC** | **Dual rates** | Low · Medium · High (defaults: 100% / expo 30) |
+| **SC** | **Dual rates** | Low · Medium · High (same as Align SE V2) |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 
 If the gyro is rudder-only (no gain wire), leave **CH5** empty — same as HBK2.
@@ -32,7 +32,7 @@ If the gyro is rudder-only (no gain wire), leave **CH5** empty — same as HBK2.
 |---------|--------|
 | **SF** | Hold **ON** |
 | **SE** | **Normal** |
-| **SC** | **Low** (same throw as High until you retune) |
+| **SC** | **Low** |
 | Collective | Low / idle |
 
 ## Related

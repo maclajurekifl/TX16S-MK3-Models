@@ -18,7 +18,7 @@ Starter radio pack for an **XL frame + 120° CCPM flybar head** with **R86C**. T
 | SE | Normal / Idle1 / Idle2 |
 | SA | Gyro gain → CH5 (if wired) |
 | SB | Lights |
-| SC | Rates (all start 100% / expo 30) |
+| SC | Rates Low / Med / High (SE V2 values) |
 | SD | Timer |
 
 ## Critical mix rules

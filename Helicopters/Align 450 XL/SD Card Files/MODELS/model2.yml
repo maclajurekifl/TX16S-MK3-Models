@@ -294,12 +294,12 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ail"
-   weight: 100
+   weight: 55
    offset: 0
    swtch: "SC0"
    curve: 
       type: 1
-      value: 30
+      value: 40
    chn: 0
    flightModes: 000000000
    name: "Low"
@@ -308,7 +308,7 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ail"
-   weight: 100
+   weight: 75
    offset: 0
    swtch: "SC1"
    curve: 
@@ -327,7 +327,7 @@ expoData:
    swtch: "SC2"
    curve: 
       type: 1
-      value: 30
+      value: 25
    chn: 0
    flightModes: 000000000
    name: "High"
@@ -336,12 +336,12 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ele"
-   weight: 100
+   weight: 55
    offset: 0
    swtch: "SC0"
    curve: 
       type: 1
-      value: 30
+      value: 40
    chn: 1
    flightModes: 000000000
    name: "Low"
@@ -350,7 +350,7 @@ expoData:
    scale: 0
    trimSource: 1
    srcRaw: "Ele"
-   weight: 100
+   weight: 75
    offset: 0
    swtch: "SC1"
    curve: 
@@ -369,7 +369,7 @@ expoData:
    swtch: "SC2"
    curve: 
       type: 1
-      value: 30
+      value: 25
    chn: 1
    flightModes: 000000000
    name: "High"
@@ -392,12 +392,12 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 100
+   weight: 65
    offset: 0
    swtch: "SC0"
    curve: 
       type: 1
-      value: 30
+      value: 35
    chn: 3
    flightModes: 000000000
    name: "Low"
@@ -406,12 +406,12 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "Rud"
-   weight: 100
+   weight: 80
    offset: 0
    swtch: "SC1"
    curve: 
       type: 1
-      value: 30
+      value: 25
    chn: 3
    flightModes: 000000000
    name: "Mid"
@@ -425,7 +425,7 @@ expoData:
    swtch: "SC2"
    curve: 
       type: 1
-      value: 30
+      value: 20
    chn: 3
    flightModes: 000000000
    name: "High"
