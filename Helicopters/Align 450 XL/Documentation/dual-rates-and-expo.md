@@ -1,6 +1,6 @@
 # Dual rates & expo
 
-Same **SC** dual rates as [Align 450 SE V2](../Align%20450%20SE%20V2/Documentation/dual-rates-and-expo.md).
+Same dual-rate layout as **Align 450 SE V2**.
 
 ## Rates (**SC**)
 

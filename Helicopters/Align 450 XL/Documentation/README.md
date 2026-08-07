@@ -4,7 +4,7 @@
 
 **Align T-Rex 450 XL** frame (belt-driven tail, older XL layout) with a **120° eCCPM flybar head** — flown like an SE-class CCPM 450 on a Radiomaster **TX16S MK3** (EdgeTX), bound to a RadioMaster **R86C**.
 
-Starter pack: SE V2–style heli programming and **dual rates**, with **R86C / FrSky X LBT** RF (same family as Honey Bee King 2). Thr/pitch curves are **starter defaults** for you to tune; heli swash weights start at a generic ±60%.
+Starter pack: SE V2–style heli programming with **R86C / FrSky X LBT** RF (same family as Honey Bee King 2). Dual rates and curves are **simple defaults** for you to tune on this airframe.
 
 ---
 
@@ -17,7 +17,7 @@ Starter pack: SE V2–style heli programming and **dual rates**, with **R86C / F
 | Receiver | RadioMaster **R86C** (6ch PWM) |
 | RF | External MULTI · **FrSky X · LBT** · 6 ch · Custom failsafe |
 | Flight modes | Normal · Idle-Up 1 · Idle-Up 2 (**SE**) |
-| Rates | Low · Medium · High (**SC**) — same as Align SE V2 |
+| Rates | Low · Medium · High (**SC**) — same as Align 450 SE V2 |
 | Hold | Throttle hold (**SF**) |
 | Gyro gain | **SA** → CH5 if your gyro has a gain lead; else leave CH5 empty |
 | Lights | **SB** (RGB LED scripts) |

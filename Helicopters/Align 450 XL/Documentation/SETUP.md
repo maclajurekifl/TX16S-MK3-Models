@@ -18,7 +18,7 @@ Starter radio pack for an **XL frame + 120° CCPM flybar head** with **R86C**. T
 | SE | Normal / Idle1 / Idle2 |
 | SA | Gyro gain → CH5 (if wired) |
 | SB | Lights |
-| SC | Rates Low / Med / High (SE V2 values) |
+| SC | Rates Low / Med / High (same as SE V2) |
 | SD | Timer |
 
 ## Critical mix rules
@@ -26,6 +26,13 @@ Starter radio pack for an **XL frame + 120° CCPM flybar head** with **R86C**. T
 - Coll. pitch source = **PIT**  
 - CH6 = **CYC3**  
 - SF0 → thr override −100  
+
+## Heli / swash (starter)
+
+| Field | Value |
+|-------|--------|
+| Swash | 120° |
+| Coll. / Ail / Ele weight | **100% / 100% / 100%** (flip signs on radio if tilt is wrong) |
 
 ## Wiring
 

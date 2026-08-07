@@ -594,9 +594,9 @@ swashR:
    collectiveSource: I4
    aileronSource: I0
    elevatorSource: I1
-   collectiveWeight: 60
-   aileronWeight: -60
-   elevatorWeight: -60
+   collectiveWeight: 100
+   aileronWeight: 100
+   elevatorWeight: 100
 flightModeData: 
    0:
       trim: 
