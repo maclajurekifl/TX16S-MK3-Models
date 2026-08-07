@@ -33,6 +33,7 @@ Details: each model's `Documentation/RESTORE.md`.
 | Category | Model | Documentation | Status |
 |----------|--------|---------------|--------|
 | Helicopters | [Align 450 SE V2](Helicopters/Align%20450%20SE%20V2/Documentation/README.md) | Homepage + guides | Backed up |
+| Helicopters | [Align 450 XL](Helicopters/Align%20450%20XL/Documentation/README.md) | Homepage + guides | Pack ready — R86C bind |
 | Helicopters | [Titan 450 SE V2](Helicopters/Titan%20450%20SE%20V2/Documentation/README.md) | Homepage + guides | Pack ready — D8R-II Plus bind |
 | Helicopters | [Honey Bee King 2](Helicopters/Honey%20Bee%20King%202/Documentation/README.md) | Homepage + guides | Backed up |
 | Helicopters | [XK K110S](Helicopters/XK%20K110S/Documentation/README.md) | Homepage + guides | Backed up |
@@ -44,6 +45,14 @@ Details: each model's `Documentation/RESTORE.md`.
 - [SD Card Files](Helicopters/Align%20450%20SE%20V2/SD%20Card%20Files/)
 - [Switch map](Helicopters/Align%20450%20SE%20V2/Documentation/switch-map.md)
 - [Flying guide](Helicopters/Align%20450%20SE%20V2/Documentation/flying-guide.md)
+
+### Align 450 XL
+
+- [Homepage](Helicopters/Align%20450%20XL/Documentation/README.md)
+- [SD Card Files](Helicopters/Align%20450%20XL/SD%20Card%20Files/)
+- [Switch map](Helicopters/Align%20450%20XL/Documentation/switch-map.md)
+- [R86C wiring](Helicopters/Align%20450%20XL/Documentation/r86c-wiring.md)
+- [RF bind & failsafe](Helicopters/Align%20450%20XL/Documentation/rf-bind-failsafe.md)
 
 ### Titan 450 SE V2
 
