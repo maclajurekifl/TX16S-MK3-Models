@@ -9,10 +9,10 @@ Physical controls on the TX16S for **Titan 450 SE V2**.
 | Switch | Function | Positions (typical) |
 |--------|----------|---------------------|
 | **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
-| **SE** | **Flight mode** | ↓ Normal · − Idle1 · ↑ Idle2 |
+| **SE** | **Flight mode** | ↑ Normal (`SE0`) · − Idle1 (`SE1`) · ↓ Idle2 (`SE2`) |
 | **SA** | **Gyro gain** | 3-pos HH / rate values as tuned |
 | **SB** | **RGB lights** | Scripts: `blue` / `sapp` / `off` |
-| **SC** | **Dual rates** | Low · Medium · High (screen: `SC - Rates Low/Mid/High`) |
+| **SC** | **Dual rates** | ↑ Low (`SC0`) · − Medium (`SC1`) · ↓ High (`SC2`) — screen: `SC - Rates Low/Mid/High` |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 
 Confirm live labels on your radio if you remapped anything after this backup.

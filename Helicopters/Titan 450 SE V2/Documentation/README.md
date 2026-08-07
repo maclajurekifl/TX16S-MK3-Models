@@ -4,7 +4,7 @@
 
 **Flybar Titan 450 SE V2** (Align SE V2-class clone) on a Radiomaster **TX16S MK3** (EdgeTX), bound to a FrSky **D8R-II Plus**.
 
-Radio programming is a direct copy of [Align 450 SE V2](../Align%20450%20SE%20V2/Documentation/README.md) (curves, switches, CCPM). Only the **RF / receiver** side differs.
+Radio programming is a direct copy of [Align 450 SE V2](../../Align%20450%20SE%20V2/Documentation/README.md) (curves, switches, CCPM). Only the **RF / receiver** side differs.
 
 ---
 
