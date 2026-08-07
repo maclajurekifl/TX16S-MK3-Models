@@ -1,7 +1,12 @@
 # Switch map — Simulator
 
-| Switch | Function |
-|--------|----------|
-| **SB** | RGB LEDs — Up `blue` · Mid `sapp` · Down `off` |
+| Control | Function |
+|---------|----------|
+| **SB Up** | LEDs **off** |
+| **SB Mid / Down** | **40 LED effects** (`ledfx`, Repeat ON) |
+| **S1** | Select effect 0–39 |
+| **S2** | Effect speed |
 
-All other switches unused. Sticks are full range on CH1–4.
+Sticks: full-range Ail / Ele / Thr / Rud (sim + reactive FX 31–37).
+
+Full list: [led-effects.md](led-effects.md)

@@ -38,7 +38,7 @@ Details: each model's `Documentation/RESTORE.md`.
 | Helicopters | [Honey Bee King 2](Helicopters/Honey%20Bee%20King%202/Documentation/README.md) | Homepage + guides | Backed up |
 | Helicopters | [XK K110S](Helicopters/XK%20K110S/Documentation/README.md) | Homepage + guides | Backed up |
 | Drones | [Emax Hawk 5](Drones/Emax%20Hawk%205/Documentation/README.md) | Homepage + guides | Pack ready — bind + BF AUX rematch |
-| Utility | [Simulator](Simulator/Documentation/README.md) | Homepage | Pack ready — USB / full sticks + SB LEDs |
+| Utility | [Simulator](Simulator/Documentation/README.md) | Homepage | Pack ready — USB / full sticks + 40 LED FX |
 
 ### Align 450 SE V2
 
