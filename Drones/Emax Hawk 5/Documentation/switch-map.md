@@ -12,7 +12,7 @@ Widget labels are always **Up / Mid / Down** (high → low).
 |--------|----|-----|------|---------|
 | **SA** | Hi intensity | Mid | Lo intensity | CH8 |
 | **SB** | Blue | Sapphire | Off | CH9 (+ TX RGB) |
-| **SC** | Low rates | Mid rates | High rates | — (inputs only) |
+| **SC** | Evol rates (100% / expo 0) | Soft (old Low) | Medium (old Mid) | — (inputs only) |
 | **SD** | Pause | Run | Reset | — |
 | **SE** | **Level** | **Horizon** | **Acro** | CH5 Mode |
 | **SF** | **SAFE** (thr cut, CH6 low) | — | **ARMED** (CH6 high) | CH6 |
@@ -42,7 +42,8 @@ No custom limit table (same idea as **AERO**): default **±100%**. Watch the **O
 
 ## Before arm
 
-**SF Up** · **SE Up** (Level) · **SC Up** (Low rates) · thr low
+**SF Up** · **SE Up** (Level) · **SC Mid or Down** if you want softer sticks · thr low
+
 
 ## Related
 

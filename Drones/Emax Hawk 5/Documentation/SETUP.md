@@ -22,7 +22,7 @@ Multirotor model aligned with **AERO** (`model1` on your SD): airplane type, dir
 | 9 | **SB** | LED |
 | 10 | **SW1** | Turtle |
 
-SC = dual rates: Up=Low · Mid=Mid · Down=High. SF0 also overrides thr to −100.
+SC rates (**Up→Down**): **Evol** 100%/expo 0 (Turnigy Evolution feel) · old Low · old Mid. Former High removed. SF0 also overrides thr to −100.
 
 ## Model type
 
