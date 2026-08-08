@@ -259,7 +259,7 @@ screenData:
                      0:
                         type: String
                         value: 
-                           stringValue: Btn1 Prev FX · Btn2 Next FX
+                           stringValue: Btn1 Prev FX  Btn2 Next FX
                      1:
                         type: Color
                         value: 
