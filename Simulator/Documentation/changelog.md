@@ -2,7 +2,12 @@
 
 ## 2026-08-08
 
-- Add **40** animated RGB effects in `ledfx.lua`; Simulator **SB** Mid/Down runs them (Repeat ON), **S1** selects, **S2** speed; SB Up = off.
+- Expand to **80** effects; fix flicker via phase-based timing.
+- Remap: **S1** = brightness · **S2** = reverse / freeze / forward · **btn 1/2** (`SW1`/`SW2` Toggle) = prev/next effect.
+
+## 2026-08-08 (earlier)
+
+- Add animated RGB effects in `ledfx.lua`; Simulator **SB** Mid/Down runs them (Repeat ON); SB Up = off.
 
 ## 2026-08-07
 

@@ -1,6 +1,6 @@
 # LED effects (Simulator)
 
-40 animated RGB sequences in one script: `SCRIPTS/RGBLED/ledfx.lua`.
+80 animated RGB sequences in `SCRIPTS/RGBLED/ledfx.lua`.
 
 ## Controls
 
@@ -8,55 +8,31 @@
 |---------|--------|
 | **SB Up** | LEDs **off** |
 | **SB Mid / Down** | Run effects (**Repeat ON**) |
-| **S1** (left pot) | Select effect **0–39** (CCW→CW) |
-| **S2** (right pot) | Animation **speed** (slow→fast) |
+| **Btn 1** (`SW1` / **Prv**) | Previous effect |
+| **Btn 2** (`SW2` / **Nxt**) | Next effect |
+| **S1** | **Brightness** (dark → bright) |
+| **S2** | **Speed**: CCW = reverse · mid = **freeze** · CW = forward |
 
-Sticks still work at full range for the sim; effects **31–37** also react to thr / ail / ele / rud.
+Buttons are EdgeTX customizable switches set to **Toggle** (active while held). One press steps one effect.
 
-## Effect list (S1 low → high)
+## Effect groups
 
-| # | Name | Style |
-|---|------|--------|
-| 0 | Rainbow | Solid hue cycle |
-| 1 | RainWave | Rainbow along strip |
-| 2 | RainChase | Short rainbow chase |
-| 3 | PulseRed | Pulse |
-| 4 | PulseBlu | Pulse |
-| 5 | PulseGrn | Pulse |
-| 6 | PulseWht | Pulse |
-| 7 | BreatheCy | Breathe cyan |
-| 8 | BreatheMg | Breathe magenta |
-| 9 | Police | Red / blue flash |
-| 10 | Ambulance | Red / white |
-| 11 | StrobeW | White strobe |
-| 12 | StrobeR | Red strobe |
-| 13 | Fire | Flicker |
-| 14 | Ice | Blue shimmer |
-| 15 | Matrix | Green rain head |
-| 16 | Theater | Marquee |
-| 17 | Comet | Tail chase |
-| 18 | Cylon | Larson scanner |
-| 19 | DualScan | Two scanners |
-| 20 | Sparkle | Twinkle sparks |
-| 21 | Twinkle | Soft shimmer |
-| 22 | Ocean | Blue waves |
-| 23 | Sunset | Warm fade |
-| 24 | Aurora | Green/teal wash |
-| 25 | Thunder | Dark + flashes |
-| 26 | Heartbeat | Double pulse |
-| 27 | KnightR | Scanner |
-| 28 | Loading | Fill bar |
-| 29 | Spinner | 3-arm spinner |
-| 30 | Halves | Split colours |
-| 31 | VU-Thr | **Thr** meter |
-| 32 | AilHue | **Ail** → hue |
-| 33 | EleBright | **Ele** → brightness |
-| 34 | RudShift | **Rud** → position |
-| 35 | StickMag | Stick deflection |
-| 36 | ThrHeat | **Thr** blue→red |
-| 37 | XYColor | Ail+Ele colour |
-| 38 | FadeHue | Slow hue fade |
-| 39 | Xmas | Red / green |
+| # | Style |
+|---|--------|
+| 0–9 | Rainbow / wash / split hue |
+| 10–19 | Pulse / breathe / heartbeat |
+| 20–29 | Police, strobe, thunder, alerts |
+| 30–39 | Fire, ice, ocean, aurora, candle, Xmas |
+| 40–49 | Cylon, comet, theater, spinner, fill |
+| 50–59 | Sparkle, twinkle, glitter |
+| 60–69 | Halves, RGB cycle, crossfade, checker |
+| 70–79 | Stick-reactive (thr/ail/ele/rud) + extras |
+
+## Notes
+
+- Timing uses a **phase accumulator** so changing S2 does not jump/flicker.
+- Mid S2 freezes the current frame (useful for picking a colour).
+- Effect index resets when LEDs are turned off (SB Up) and back on.
 
 ## Related
 

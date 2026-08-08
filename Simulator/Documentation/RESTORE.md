@@ -10,7 +10,7 @@
 |------|-----|
 | `MODELS/model7.yml` | Simulator model |
 | `IMAGES/Sim.png` | Bitmap (192×114) |
-| `SCRIPTS/RGBLED/ledfx.lua` | 40 animated FX (SB Mid/Down) |
+| `SCRIPTS/RGBLED/ledfx.lua` | 80 animated FX (SB Mid/Down) |
 | `SCRIPTS/RGBLED/off.lua` | SB Up = off |
 
 Eject → select **Simulator** → USB to PC for the sim.
