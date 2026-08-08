@@ -11,7 +11,7 @@ Physical controls on the TX16S for **Esky HBK 2** (`model5.yml`).
 | **SF** | **Throttle hold** | **SF0** = override CH1 to **−100** (motor cut) |
 | **SE** | **Flight mode** | Default **Normal** · **SE1** Idle1 · **SE2** Idle2 |
 | **SA** | *(unused)* | No gyro gain lead on this build — leave alone |
-| **SB** | **RGB lights** | **SB0** `blue` · **SB1** `sapp` · **SB2** `off` |
+| **SB** | **RGB lights** | Up `srain` · Mid `sapp` · Down `off` · **S1** brightness · **S2** speed |
 | **SC** | **Dual rates** | **SC0** Low · **SC1** Mid · **SC2** High |
 | **SD** | **Flight timer** | **SD1** start · **SD2** reset |
 

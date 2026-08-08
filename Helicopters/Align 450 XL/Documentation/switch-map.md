@@ -9,13 +9,13 @@ Physical controls on the TX16S for **Align 450 XL**.
 | Switch | Function | Positions (typical) |
 |--------|----------|---------------------|
 | **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
-| **SE** | **Flight mode** | ‚Üì Normal ¬∑ ‚àí Idle1 ¬∑ ‚Üë Idle2 |
-| **SA** | **Gyro gain** | 3-pos ‚Üí CH5 if your gyro has a remote gain lead |
-| **SB** | **RGB lights** | **SB0** `srain` ∑ **SB1** `sapp` ∑ **SB2** `off` ∑ **S1** bri ∑ **S2** spd |
-| **SC** | **Dual rates** | Low ¬∑ Medium ¬∑ High (same weights/expo as Align 450 SE V2) |
+| **SE** | **Flight mode** | Down Normal ∑ Mid Idle1 ∑ Up Idle2 |
+| **SA** | **Gyro gain** | 3-pos ? CH5 if your gyro has a remote gain lead |
+| **SB** | **RGB lights** | Up `srain` ∑ Mid `sapp` ∑ Down `off` ∑ **S1** brightness ∑ **S2** speed |
+| **SC** | **Dual rates** | Low ∑ Medium ∑ High (same weights/expo as Align 450 SE V2) |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 
-If the gyro is rudder-only (no gain wire), leave **CH5** empty ‚Äî same as HBK2.
+If the gyro is rudder-only (no gain wire), leave **CH5** empty ? same as HBK2.
 
 ## Sticks
 
@@ -39,4 +39,4 @@ If the gyro is rudder-only (no gain wire), leave **CH5** empty ‚Äî same as HBK2.
 
 - [Setup](SETUP.md)
 - [Flight modes & curves](flight-modes-and-curves.md)
-- [‚Üê Model home](README.md)
+- [? Model home](README.md)

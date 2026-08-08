@@ -9,10 +9,10 @@ Physical controls on the TX16S for **Titan 450 SE V2**.
 | Switch | Function | Positions (typical) |
 |--------|----------|---------------------|
 | **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
-| **SE** | **Flight mode** | ↑ Normal (`SE0`) · − Idle1 (`SE1`) · ↓ Idle2 (`SE2`) |
+| **SE** | **Flight mode** | Up Normal (`SE0`) ? Mid Idle1 (`SE1`) ? Down Idle2 (`SE2`) |
 | **SA** | **Gyro gain** | 3-pos HH / rate values as tuned |
-| **SB** | **RGB lights** | **SB0** `srain` � **SB1** `sapp` � **SB2** `off` � **S1** bri � **S2** spd |
-| **SC** | **Dual rates** | ↑ Low (`SC0`) · − Medium (`SC1`) · ↓ High (`SC2`) — screen: `SC - Rates Low/Mid/High` |
+| **SB** | **RGB lights** | Up `srain` ? Mid `sapp` ? Down `off` ? **S1** brightness ? **S2** speed |
+| **SC** | **Dual rates** | Up Low (`SC0`) ? Mid Medium (`SC1`) ? Down High (`SC2`) |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 
 Confirm live labels on your radio if you remapped anything after this backup.
@@ -26,7 +26,7 @@ Confirm live labels on your radio if you remapped anything after this backup.
 | Elevator (right fore/aft) | Cyclic pitch |
 | Aileron (right left/right) | Cyclic roll |
 
-## Recommended “default” before spool
+## Recommended default before spool
 
 | Control | Set to |
 |---------|--------|
@@ -41,4 +41,4 @@ Confirm live labels on your radio if you remapped anything after this backup.
 - [How to fly](flying-guide.md)
 - [Flight modes & curves](flight-modes-and-curves.md)
 - [Dual rates & expo](dual-rates-and-expo.md)
-- [← Model home](README.md)
+- [? Model home](README.md)

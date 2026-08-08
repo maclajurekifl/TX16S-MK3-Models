@@ -11,7 +11,7 @@ Physical controls on the TX16S for **XK 110s** (`model4.yml`).
 | **SF** | **Throttle hold** | **SF0** = override CH3 to **−100** (motor cut) |
 | **SE** | **Flight mode** | ↑ **Normal** · − **Zero** · ↓ **Idle-Up** (`SE2`) |
 | **SA** | **6G / 3D** | → **CH5** (same job as stock X6 **G.S / Gear**) |
-| **SB** | **RGB lights** | **SB0** `blue` · **SB1** `red` · **SB2** `off` |
+| **SB** | **RGB lights** | Up `srain` · Mid `red` · Down `off` · **S1** brightness · **S2** speed |
 | **SC** | **Dual rates** | ↑ High · − High · ↓ **Low** (`SC2`) |
 | **SD** | **Flight timer** | **SD1** start · **SD2** reset |
 
