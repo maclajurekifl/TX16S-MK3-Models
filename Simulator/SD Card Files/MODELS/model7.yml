@@ -197,6 +197,27 @@ customFn:
       swtch: "SB2"
       func: RGB_LED
       def: "ledfx,1,On"
+   3:
+      swtch: "ON"
+      func: PLAY_SCRIPT
+      def: "fxnav,1,On"
+gvars: 
+   0:
+      name: "FX"
+      min: -10
+      max: 90
+      popup: 0
+      prec: 0
+      unit: 0
+flightModeData: 
+   0:
+      name: ""
+      swtch: "NONE"
+      fadeIn: 0
+      fadeOut: 0
+      gvars: 
+         0:
+            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SB:
@@ -325,17 +346,13 @@ screenData:
                         value: 
                            unsignedValue: 1
             4:
-               widgetName: Outputs
+               widgetName: LedFx
                widgetData: 
                   options: 
                      0:
-                        type: Unsigned
-                        value: 
-                           unsignedValue: 0
-                     1:
                         type: Color
                         value: 
-                           color: COLIDX1
+                           color: COLIDX2
             5:
                widgetName: ModelBmp
                widgetData: 

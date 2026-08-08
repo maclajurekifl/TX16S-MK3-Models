@@ -8,12 +8,12 @@
 |---------|--------|
 | **SB Up** | LEDs **off** |
 | **SB Mid / Down** | Run effects (**Repeat ON**) |
-| **Btn 1** (`SW1` / **Prv**) | Previous effect |
-| **Btn 2** (`SW2` / **Nxt**) | Next effect |
+| **Btn 1** (`SW1` / **Prv**) | Previous effect (via `fxnav` → GV1) |
+| **Btn 2** (`SW2` / **Nxt**) | Next effect (via `fxnav` → GV1) |
 | **S1** | **Brightness** (dark → bright) |
 | **S2** | **Speed**: CCW = reverse · mid = **freeze** · CW = forward |
 
-Buttons are EdgeTX customizable switches set to **Toggle** (active while held). One press steps one effect.
+Main screen **LedFx** widget shows `FX ##  Name` for the active effect.
 
 ## Effect groups
 

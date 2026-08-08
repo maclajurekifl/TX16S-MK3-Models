@@ -12,5 +12,7 @@
 | `IMAGES/Sim.png` | Bitmap (192×114) |
 | `SCRIPTS/RGBLED/ledfx.lua` | 80 animated FX (SB Mid/Down) |
 | `SCRIPTS/RGBLED/off.lua` | SB Up = off |
+| `SCRIPTS/FUNCTIONS/fxnav.lua` | Btn 1/2 → prev/next effect (GV1) |
+| `WIDGETS/LedFx/` | Shows current FX name on main screen |
 
 Eject → select **Simulator** → USB to PC for the sim.

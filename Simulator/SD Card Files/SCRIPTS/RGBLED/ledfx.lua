@@ -1,21 +1,40 @@
 -- Simulator RGB LED pack: 80 effects
 -- SB Mid/Down = run (Repeat ON) | SB Up = off.lua
 -- S1 = brightness | S2 = speed (CCW=rev, mid=freeze, CW=fwd)
--- SW1 (btn 1) = previous FX | SW2 (btn 2) = next FX
+-- Effect index: GVAR1 "FX" (stepped by SCRIPTS/FUNCTIONS/fxnav.lua on btn 1/2)
 -- Timing uses a phase accumulator so speed changes do not jump/flicker.
 
 local N = 80
 local fx = 0
 local phase = 0
 local last_t = nil
-local prev_sw1 = false
-local prev_sw2 = false
 local bri = 1
 
 local function clamp(x, a, b)
   if x < a then return a end
   if x > b then return b end
   return x
+end
+
+local function read_fx()
+  if model and model.getGlobalVariable then
+    local v = model.getGlobalVariable(0, 0)
+    if v ~= nil then return v end
+  end
+  return fx
+end
+
+local function write_fx(v)
+  fx = v
+  if model and model.setGlobalVariable then
+    model.setGlobalVariable(0, 0, v)
+  end
+end
+
+local function wrap_fx(v)
+  if v < 0 then return N - 1 end
+  if v >= N then return 0 end
+  return v
 end
 
 local function wrap360(h)
@@ -60,11 +79,11 @@ local function stick(name)
   return (getValue(name) or 0) / 1024
 end
 
-local function pressed(name)
-  return (getValue(name) or 0) > 200
-end
-
 local function update_controls()
+  local v = read_fx()
+  local w = wrap_fx(v)
+  if w ~= v then write_fx(w) else fx = w end
+
   bri = clamp(((getValue("s1") or 0) + 1024) / 2048, 0, 1)
 
   local raw = (getValue("s2") or 0) / 1024
@@ -78,18 +97,6 @@ local function update_controls()
   if dt > 25 then dt = 25 end
   last_t = now
   phase = phase + dt * rate
-
-  local s1 = pressed("sw1")
-  local s2 = pressed("sw2")
-  if s1 and not prev_sw1 then
-    fx = fx - 1
-    if fx < 0 then fx = N - 1 end
-  end
-  if s2 and not prev_sw2 then
-    fx = fx + 1
-    if fx >= N then fx = 0 end
-  end
-  prev_sw1, prev_sw2 = s1, s2
 end
 
 local function p() return phase end
@@ -669,7 +676,8 @@ local EFFECTS = {
 
 local function init()
   last_t = nil
-  prev_sw1, prev_sw2 = false, false
+  fx = wrap_fx(read_fx())
+  write_fx(fx)
 end
 
 local function run()
