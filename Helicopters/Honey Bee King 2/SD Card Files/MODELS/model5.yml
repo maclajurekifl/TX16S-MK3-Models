@@ -504,7 +504,7 @@ customFn:
    1:
       swtch: "SB0"
       func: RGB_LED
-      def: "blue,1,1x"
+      def: "srain,1,On"
    2:
       swtch: "SB1"
       func: RGB_LED

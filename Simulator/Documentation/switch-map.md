@@ -2,7 +2,7 @@
 
 | Control | Function |
 |---------|----------|
-| **SB Up** | **StaticRain** rainbow |
+| **SB Up** | LEDs **off** |
 | **SB Mid / Down** | **80 LED effects** (`ledfx`, Repeat ON) |
 | **Btn 1** (`SW1` Prv) | Previous effect |
 | **Btn 2** (`SW2` Nxt) | Next effect |

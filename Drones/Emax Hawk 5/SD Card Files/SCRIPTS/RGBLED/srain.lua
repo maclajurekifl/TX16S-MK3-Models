@@ -1,5 +1,8 @@
--- Static rainbow (StaticRain) for Simulator SB Up
--- Respects S1 brightness like ledfx.lua
+-- StaticRain: rainbow along LED strip
+-- S1 = brightness | S2 = speed (CCW=rev, mid=freeze, CW=fwd)
+
+local phase = 0
+local last_t = nil
 
 local function clamp(x, a, b)
   if x < a then return a end
@@ -31,13 +34,26 @@ local function hsv(h, s, v)
 end
 
 local function init()
+  last_t = nil
 end
 
 local function run()
   local bri = clamp(((getValue("s1") or 0) + 1024) / 2048, 0, 1)
+  local raw = (getValue("s2") or 0) / 1024
+  if math.abs(raw) < 0.08 then raw = 0 end
+  local rate = raw * 3.5
+
+  local now = getTime() or 0
+  if last_t == nil then last_t = now end
+  local dt = now - last_t
+  if dt < 0 then dt = 0 end
+  if dt > 25 then dt = 25 end
+  last_t = now
+  phase = phase + dt * rate
+
   local len = math.max(LED_STRIP_LENGTH or 2, 1)
   for i = 0, len - 1 do
-    local r, g, b = hsv(i * (360 / len), 1, 1)
+    local r, g, b = hsv(phase + i * (360 / len), 1, 1)
     setRGBLedColor(i,
       clamp(math.floor(r * bri + 0.5), 0, 255),
       clamp(math.floor(g * bri + 0.5), 0, 255),

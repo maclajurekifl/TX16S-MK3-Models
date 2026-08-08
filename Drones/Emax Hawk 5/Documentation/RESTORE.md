@@ -23,7 +23,7 @@ This pack uses **`MODELS/model6.yml`** (slot **6** — after HBK2 `model5`).
 |------|-----|
 | `MODELS/model6.yml` | Full model (AETR, AUX, rates, screens, SF) |
 | `IMAGES/Hawk5.png` | Model select bitmap (192×114) |
-| `SCRIPTS/RGBLED/blue`, `sapp`, `off` | SB TX light scripts (same as helis) |
+| `SCRIPTS/RGBLED/srain`, `sapp`, `off` | SB TX light scripts (same as helis) |
 | `WIDGETS/GaugeRotary/` | Throttle rotary gauge on main screen |
 
 ## After copy

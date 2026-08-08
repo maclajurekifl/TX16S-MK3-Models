@@ -18,7 +18,7 @@ If slot 2 is taken, rename to a free `modelN.yml` and add a labels entry (see `S
 |------|-----|
 | `MODELS/model2.yml` | Align 450 XL · CCPM · R86C RF |
 | `IMAGES/Align450XL.png` | Bitmap |
-| `SCRIPTS/RGBLED/*` | SB lights |
+| `SCRIPTS/RGBLED/ (srain, sapp, off)` | SB lights |
 
 ## After copy
 

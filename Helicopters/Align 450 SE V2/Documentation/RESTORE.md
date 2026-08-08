@@ -22,7 +22,7 @@ This backup uses **`MODELS/model3.yml`** (slot 3 on this radio).
 |------|-----|
 | `MODELS/model3.yml` | Full model (heli CCPM, mixes, screens, SF) |
 | `IMAGES/Align450.png` | Model bitmap |
-| `SCRIPTS/RGBLED/blue`, `sapp`, `off` | SB light special functions |
+| `SCRIPTS/RGBLED/srain`, `sapp`, `off` | SB light special functions |
 
 Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, Radio Info, Date Time) ship with EdgeTX — not duplicated here. This model no longer uses the custom **GaugeRotary** widget.
 

@@ -11,7 +11,7 @@ Widget labels are always **Up / Mid / Down** (high → low).
 | Switch | Up | Mid | Down | Channel |
 |--------|----|-----|------|---------|
 | **SA** | Hi intensity | Mid | Lo intensity | CH8 |
-| **SB** | Blue | Sapphire | Off | CH9 (+ TX RGB) |
+| **SB** | StaticRain | Sapphire | Off | CH9 (+ TX RGB; **S1** bri · **S2** spd) |
 | **SC** | Evol rates (100% / expo 0) | Soft (old Low) | Medium (old Mid) | — (inputs only) |
 | **SD** | Pause | Run | Reset | — |
 | **SE** | **Level** | **Horizon** | **Acro** | CH5 Mode |

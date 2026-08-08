@@ -11,7 +11,7 @@ Physical controls on the TX16S for **Align 450 XL**.
 | **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
 | **SE** | **Flight mode** | ↓ Normal · − Idle1 · ↑ Idle2 |
 | **SA** | **Gyro gain** | 3-pos → CH5 if your gyro has a remote gain lead |
-| **SB** | **RGB lights** | Scripts: `blue` / `sapp` / `off` |
+| **SB** | **RGB lights** | **SB0** `srain` � **SB1** `sapp` � **SB2** `off` � **S1** bri � **S2** spd |
 | **SC** | **Dual rates** | Low · Medium · High (same weights/expo as Align 450 SE V2) |
 | **SD** | **Flight timer** | Starts / controls the Flight timer |
 

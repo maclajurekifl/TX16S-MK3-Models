@@ -22,7 +22,7 @@ This backup uses **`MODELS/model4.yml`** (slot 4 on this radio).
 |------|-----|
 | `MODELS/model4.yml` | Full model (heli `---`, mixes, curves, screens, SF) |
 | `IMAGES/XK110.png` | Model bitmap |
-| `SCRIPTS/RGBLED/blue`, `red`, `off` | SB light special functions |
+| `SCRIPTS/RGBLED/srain`, `red`, `off` | SB light special functions |
 
 Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, …) ship with EdgeTX — not duplicated here. This model no longer uses the custom **GaugeRotary** widget.
 

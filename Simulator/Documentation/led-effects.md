@@ -6,7 +6,7 @@
 
 | Control | Action |
 |---------|--------|
-| **SB Up** | **StaticRain** (`srain`) — static rainbow |
+| **SB Up** | LEDs **off** |
 | **SB Mid / Down** | Run animated pack (`ledfx`, Repeat ON) |
 | **Btn 1** (`SW1` / **Prv**) | Previous effect (via `fxnav` → GV1) |
 | **Btn 2** (`SW2` / **Nxt**) | Next effect (via `fxnav` → GV1) |

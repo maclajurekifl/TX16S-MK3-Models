@@ -23,7 +23,7 @@ This backup uses **`MODELS/model5.yml`** (slot 5 on this radio).
 |------|-----|
 | `MODELS/model5.yml` | Full model (heli CCPM, mixes, screens, SF) |
 | `IMAGES/HBK2.png` | Model bitmap |
-| `SCRIPTS/RGBLED/blue`, `sapp`, `off` | SB light special functions |
+| `SCRIPTS/RGBLED/srain`, `sapp`, `off` | SB light special functions |
 | `WIDGETS/GaugeRotary/` | Used on model telemetry screen |
 
 Built-in widgets (Gauge, Timer, Outputs, Text, Value, ModelBmp, Radio Info, Date Time) ship with EdgeTX — not duplicated here.

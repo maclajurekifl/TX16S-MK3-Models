@@ -23,7 +23,7 @@ This pack uses **`MODELS/model1.yml`** (slot **1**).
 |------|-----|
 | `MODELS/model1.yml` | Full heli model · FrSky D8 RF |
 | `IMAGES/Titan450.png` | Model select bitmap |
-| `SCRIPTS/RGBLED/` | SB lights |
+| `SCRIPTS/RGBLED/ (srain, sapp, off) ` | SB lights |
 
 ## After copy
 

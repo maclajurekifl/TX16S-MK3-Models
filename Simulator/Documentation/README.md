@@ -13,7 +13,7 @@ Minimal **TX16S MK3** profile for PC flight sims (USB / EdgeTX joystick). No RF 
 | Model | **Simulator** (`model7.yml`) |
 | RF | **Off** |
 | Sticks | Ail / Ele / Thr / Rud · **100%** |
-| LEDs | **SB** Rain/FX · **1/2** prev/next · **S1** brightness · **S2** speed |
+| LEDs | **SB** off/FX · **1/2** prev/next · **S1** brightness · **S2** speed |
 | Use | Select model → USB → map axes in sim |
 
 ---

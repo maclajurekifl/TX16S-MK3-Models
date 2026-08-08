@@ -50,7 +50,7 @@ Keep Coll. pitch source as **PIT** (not CYC3, not Thr stick raw if PIT already c
 | Switch | Function |
 |--------|----------|
 | SF | Override thr channel safe |
-| SB | RGB_LED `blue` / `sapp` / `off` |
+| SB | RGB_LED `srain` / `sapp` / `off` (S1 bri, S2 spd) |
 | SD | Timer related |
 
 ## 6. Bench checks
