@@ -188,7 +188,7 @@ customFn:
    0:
       swtch: "SB0"
       func: RGB_LED
-      def: "off,1,1x"
+      def: "srain,1,On"
    1:
       swtch: "SB1"
       func: RGB_LED
@@ -256,7 +256,7 @@ screenData:
                      0:
                         type: String
                         value: 
-                           stringValue: SB LEDs  Off / FX  U/M/D
+                           stringValue: SB LEDs  Rain / FX  U/M/D
                      1:
                         type: Color
                         value: 
