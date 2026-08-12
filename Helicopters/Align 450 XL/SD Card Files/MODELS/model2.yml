@@ -96,7 +96,7 @@ mixData:
    name: "Idlen2"
  -
    destCh: 1
-   srcRaw: "CYC2"
+   srcRaw: "I0"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -110,10 +110,10 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Roll"
  -
    destCh: 2
-   srcRaw: "CYC1"
+   srcRaw: "I4"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -127,7 +127,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Coll"
  -
    destCh: 3
    srcRaw: "I3"
@@ -218,7 +218,7 @@ mixData:
    name: ""
  -
    destCh: 5
-   srcRaw: "CYC3"
+   srcRaw: "I1"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -232,7 +232,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Pitch"
 limitData: 
    0:
       min: 0
@@ -589,14 +589,14 @@ customFn:
       func: OVERRIDE_CHANNEL
       def: "0,-100,1"
 swashR: 
-   type: TYPE_120
+   type: TYPE_NONE
    value: 0
-   collectiveSource: I4
-   aileronSource: I0
-   elevatorSource: I1
-   collectiveWeight: 100
-   aileronWeight: 100
-   elevatorWeight: 100
+   collectiveSource: NONE
+   aileronSource: NONE
+   elevatorSource: NONE
+   collectiveWeight: 0
+   aileronWeight: 0
+   elevatorWeight: 0
 flightModeData: 
    0:
       trim: 
