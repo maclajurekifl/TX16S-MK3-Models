@@ -1,13 +1,14 @@
 # Align 450 XL — setup summary
 
-Independent swash servos (not eCCPM): **roll / pitch / elevate** each on their own channel. **R86C** · FrSky X.
+Starter radio pack for an **XL frame + 120° CCPM flybar head** with **R86C**. Tune curves/rates on the heli — defaults are intentionally generic.
 
 ## Hardware / RF
 
-- Align 450 XL–class · flybar · **independent** cyclic + collective servos  
+- Align 450 XL–class · flybar · CCPM 120°  
 - TX16S MK3 · **model2** · **Align 450 XL**  
-- **External** MULTI · **FrSky X → LBT** · 6 ch  
+- **External** MULTI · **FrSky X → LBT** (`subType: 15,2`) · 6 ch  
 - Failsafe: **Custom** (thr low; cyclic mid)  
+- optionValue **0** until RF fine-tune after bind  
 
 ## Switches
 
@@ -17,21 +18,21 @@ Independent swash servos (not eCCPM): **roll / pitch / elevate** each on their o
 | SE | Normal / Idle1 / Idle2 |
 | SA | Gyro gain → CH5 (if wired) |
 | SB | Lights |
-| SC | Rates Low / Med / High |
+| SC | Rates Low / Med / High (same as SE V2) |
 | SD | Timer |
 
-## Mix map (independent)
+## Critical mix rules
 
-| CH | Function | Source |
-|----|----------|--------|
-| CH1 | ESC / motor | Thr + CTH/CT1/CT2 |
-| **CH2** | **Roll** only | Ail (`I0`) + rates |
-| **CH3** | **Elevate / collective** only | Pit (`I4`) + CPI/CP1/CP2 |
-| CH4 | Tail gyro | Rud |
-| CH5 | Gyro gain | SA |
-| **CH6** | **Pitch** (fore/aft) only | Ele (`I1`) + rates |
+- Coll. pitch source = **PIT**  
+- CH6 = **CYC3**  
+- SF0 → thr override −100  
 
-Heli swash mixer: **TYPE_NONE** (no CYC1/2/3).
+## Heli / swash (starter)
+
+| Field | Value |
+|-------|--------|
+| Swash | 120° |
+| Coll. / Ail / Ele weight | **100% / 100% / 100%** (flip signs on radio if tilt is wrong) |
 
 ## Wiring
 

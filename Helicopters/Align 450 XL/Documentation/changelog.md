@@ -1,13 +1,10 @@
-# Changelog — Align 450 XL
+﻿# Changelog — Align 450 XL
 
-## 2026-08-12
+## 2026-08-12 (emergency restore)
 
-- Switched from eCCPM (**TYPE_120** / CYC1–3) to **independent** servos matching the airframe:
-  - **CH2** ← Ail (roll)
-  - **CH3** ← Pit (elevate / collective)
-  - **CH6** ← Ele (pitch)
-  - Heli swash **TYPE_NONE**
-- Updated SETUP + R86C wiring docs.
+- SD `model2.yml` was truncated/missing → EdgeTX **emergency mode**.
+- Restored full known-good model from git `e690537` (RF, mixes, inputs, widgets).
+- Independent-servo experiment **reverted** until the radio loads cleanly again.
 
 ## 2026-08-07
 
