@@ -2,8 +2,8 @@
 
 ## 2026-08-12
 
-- **Emergency again** after output rename pass — restored working independent-mix `model2.yml` from `6cf9ba7` (full file, TYPE_NONE, Roll/Coll/Pitch mixes). Output rename deferred.
-- Independent mixes applied safely earlier same day; prior SD corruption also restored once.
+- Output/mix labels: **Motor**, **Roll**, **Elevate**, **Rud**, **Gain**, **Pitch** (safe temp+replace SD write).
+- Independent mixes (**TYPE_NONE**); emergency restores earlier same day when SD file truncated.
 
 ## 2026-08-07
 
