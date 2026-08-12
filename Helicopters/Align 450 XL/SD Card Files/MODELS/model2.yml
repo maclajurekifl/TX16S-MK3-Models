@@ -53,7 +53,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Motor N"
+   name: "Normal"
  -
    destCh: 0
    srcRaw: "I2"
@@ -73,7 +73,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Motor I1"
+   name: "Idle 1"
  -
    destCh: 0
    srcRaw: "I2"
@@ -93,7 +93,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Motor I2"
+   name: "Idlen2"
  -
    destCh: 1
    srcRaw: "I0"
@@ -127,7 +127,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Elevate"
+   name: "Coll"
  -
    destCh: 3
    srcRaw: "I3"
@@ -144,7 +144,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Rud"
+   name: ""
  -
    destCh: 4
    srcRaw: "I4"
@@ -181,7 +181,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Gain Low"
+   name: ""
  -
    destCh: 4
    srcRaw: "MAX"
@@ -198,7 +198,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Gain Mid"
+   name: ""
  -
    destCh: 4
    srcRaw: "MAX"
@@ -215,7 +215,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Gain High"
+   name: ""
  -
    destCh: 5
    srcRaw: "I1"
@@ -242,7 +242,7 @@ limitData:
       symetrical: 0
       revert: 0
       curve: 0
-      name: "Motor"
+      name: "Thr"
    1:
       min: 200
       max: 0
@@ -251,7 +251,7 @@ limitData:
       symetrical: 0
       revert: 0
       curve: 0
-      name: "Roll"
+      name: "Ail"
    2:
       min: 200
       max: 0
@@ -260,7 +260,7 @@ limitData:
       symetrical: 0
       revert: 1
       curve: 0
-      name: "Elevate"
+      name: "Ele"
    3:
       min: 0
       max: 0
@@ -287,7 +287,7 @@ limitData:
       symetrical: 0
       revert: 1
       curve: 0
-      name: "Pitch"
+      name: "Pit"
 expoData: 
  -
    mode: 3

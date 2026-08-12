@@ -1,42 +1,18 @@
-# Align 450 XL — setup summary
+﻿# Align 450 XL — setup summary
 
-Independent swash servos (not eCCPM): **roll / pitch / elevate** each on their own channel. **R86C** · FrSky X.
+Independent servos (not eCCPM). **R86C** · FrSky X.
 
-## Hardware / RF
+## Mix map
 
-- Align 450 XL–class · flybar · **independent** cyclic + collective servos  
-- TX16S MK3 · **model2** · **Align 450 XL**  
-- **External** MULTI · **FrSky X → LBT** · 6 ch  
-- Failsafe: **Custom** (thr low; cyclic mid)  
+| CH | Function | Source | Mix name |
+|----|----------|--------|----------|
+| CH1 | Motor / ESC | Thr curves | Motor modes via SE |
+| CH2 | Roll | Ail | Roll |
+| CH3 | Elevate / collective | Pit curves | Coll |
+| CH4 | Tail gyro | Rud | |
+| CH5 | Gyro gain | SA | |
+| CH6 | Pitch | Ele | Pitch |
 
-## Switches
+Swash: **TYPE_NONE**.
 
-| Switch | Role |
-|--------|------|
-| SF | Throttle hold |
-| SE | Normal / Idle1 / Idle2 |
-| SA | Gyro gain → CH5 (if wired) |
-| SB | Lights |
-| SC | Rates Low / Med / High |
-| SD | Timer |
-
-## Mix map (independent)
-
-| CH | Output name | Function | Source |
-|----|-------------|----------|--------|
-| CH1 | **Motor** | ESC | Thr + CTH/CT1/CT2 |
-| CH2 | **Roll** | Roll servo | Ail (`I0`) + rates |
-| CH3 | **Elevate** | Collective / swash height | Pit (`I4`) + CPI/CP1/CP2 |
-| CH4 | **Rud** | Tail gyro | Rud |
-| CH5 | **Gain** | Gyro gain | SA |
-| CH6 | **Pitch** | Fore/aft servo | Ele (`I1`) + rates |
-
-Heli swash mixer: **TYPE_NONE** (no CYC1/2/3).
-
-## Wiring
-
-[r86c-wiring.md](r86c-wiring.md)
-
-## Restore
-
-Copy `MODELS/model2.yml` + `IMAGES/Align450XL.png` (+ RGBLED if needed) onto the SD.
+See [r86c-wiring.md](r86c-wiring.md).

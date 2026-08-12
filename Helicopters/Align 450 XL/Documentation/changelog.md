@@ -2,12 +2,9 @@
 
 ## 2026-08-12
 
-- Output / mix labels: **Motor**, **Roll**, **Elevate**, **Rud**, **Gain**, **Pitch** (matches independent layout).
-- **Independent mixes** (after emergency restore): swash **TYPE_NONE**; CH2 roll, CH3 elevate, CH6 pitch. Full model kept. Single safe copy to SD.
-- Earlier same day: SD corruption → emergency mode; restored known-good pack, then re-applied independent mixes carefully.
+- **Emergency again** after output rename pass — restored working independent-mix `model2.yml` from `6cf9ba7` (full file, TYPE_NONE, Roll/Coll/Pitch mixes). Output rename deferred.
+- Independent mixes applied safely earlier same day; prior SD corruption also restored once.
 
 ## 2026-08-07
 
-- Dual rates aligned with SE V2 style; swash weights 100/100/100 while still CCPM.
-- Initial pack **model2** for RadioMaster **R86C** / FrSky X LBT.
-- Docs: R86C wiring + bind/failsafe.
+- Initial R86C / FrSky X pack and docs.
