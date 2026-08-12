@@ -2,8 +2,9 @@
 
 ## 2026-08-12
 
-- **Independent mixes** (after emergency restore): swash **TYPE_NONE**; **CH2**=Ail roll, **CH3**=Pit elevate, **CH6**=Ele pitch. Full model kept (RF/inputs/widgets). Single safe copy to SD.
-- Earlier same day: SD corruption → emergency mode; restored known-good `e690537`, then re-applied independent mixes carefully.
+- Output / mix labels: **Motor**, **Roll**, **Elevate**, **Rud**, **Gain**, **Pitch** (matches independent layout).
+- **Independent mixes** (after emergency restore): swash **TYPE_NONE**; CH2 roll, CH3 elevate, CH6 pitch. Full model kept. Single safe copy to SD.
+- Earlier same day: SD corruption → emergency mode; restored known-good pack, then re-applied independent mixes carefully.
 
 ## 2026-08-07
 

@@ -22,14 +22,14 @@ Independent swash servos (not eCCPM): **roll / pitch / elevate** each on their o
 
 ## Mix map (independent)
 
-| CH | Function | Source |
-|----|----------|--------|
-| CH1 | ESC / motor | Thr + CTH/CT1/CT2 |
-| **CH2** | **Roll** only | Ail (`I0`) + rates |
-| **CH3** | **Elevate / collective** only | Pit (`I4`) + CPI/CP1/CP2 |
-| CH4 | Tail gyro | Rud |
-| CH5 | Gyro gain | SA |
-| **CH6** | **Pitch** (fore/aft) only | Ele (`I1`) + rates |
+| CH | Output name | Function | Source |
+|----|-------------|----------|--------|
+| CH1 | **Motor** | ESC | Thr + CTH/CT1/CT2 |
+| CH2 | **Roll** | Roll servo | Ail (`I0`) + rates |
+| CH3 | **Elevate** | Collective / swash height | Pit (`I4`) + CPI/CP1/CP2 |
+| CH4 | **Rud** | Tail gyro | Rud |
+| CH5 | **Gain** | Gyro gain | SA |
+| CH6 | **Pitch** | Fore/aft servo | Ele (`I1`) + rates |
 
 Heli swash mixer: **TYPE_NONE** (no CYC1/2/3).
 

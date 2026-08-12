@@ -4,14 +4,14 @@ RadioMaster **R86C** (6ch PWM). This airframe uses **independent** servos (not C
 
 ## Ports
 
-| R86C | Function | TX / mix |
-|------|----------|----------|
-| **CH1** | ESC / motor | Thr curves · **SF** hold → −100 |
-| **CH2** | **Roll** servo | Aileron only |
-| **CH3** | **Elevate / collective** servo | Pit input (pitch curves) only |
-| **CH4** | Tail gyro (rudder **in**) | Tail **servo** plugs into the **gyro** |
-| **CH5** | Gyro gain (optional) | **SA** |
-| **CH6** | **Pitch** (fore/aft) servo | Elevator only |
+| R86C | Output name | Function | TX / mix |
+|------|-------------|----------|----------|
+| **CH1** | Motor | ESC | Thr curves · **SF** hold → −100 |
+| **CH2** | Roll | Roll servo | Aileron only |
+| **CH3** | Elevate | Collective / height | Pit curves only |
+| **CH4** | Rud | Tail gyro in | Tail **servo** on the **gyro** |
+| **CH5** | Gain | Gyro gain (optional) | **SA** |
+| **CH6** | Pitch | Fore/aft servo | Elevator only |
 
 ## Signal path
 

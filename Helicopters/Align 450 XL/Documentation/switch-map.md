@@ -2,29 +2,27 @@
 
 ![Align 450 XL](assets/Align450XL.png)
 
-Physical controls on the TX16S for **Align 450 XL**.
+Physical controls on the TX16S for **Align 450 XL** (independent roll / elevate / pitch servos).
 
 ## Switches
 
 | Switch | Function | Positions (typical) |
 |--------|----------|---------------------|
-| **SF** | **Throttle hold** | ON = motor channel forced safe (override) |
+| **SF** | **Throttle hold** | ON = motor channel forced safe |
 | **SE** | **Flight mode** | Down Normal · Mid Idle1 · Up Idle2 |
-| **SA** | **Gyro gain** | 3-pos ? CH5 if your gyro has a remote gain lead |
-| **SB** | **RGB lights** | Up `srain` · Mid `sapp` · Down `off` · **S1** brightness · **S2** speed |
-| **SC** | **Dual rates** | Low · Medium · High (same weights/expo as Align 450 SE V2) |
-| **SD** | **Flight timer** | Starts / controls the Flight timer |
+| **SA** | **Gyro gain** | ? CH5 **Gain** (if wired) |
+| **SB** | **RGB lights** | Up `srain` · Mid `sapp` · Down `off` |
+| **SC** | **Dual rates** | Low · Medium · High (Ail/Ele/Rud) |
+| **SD** | **Flight timer** | Flight timer |
 
-If the gyro is rudder-only (no gain wire), leave **CH5** empty ? same as HBK2.
+## Sticks ? outputs
 
-## Sticks
-
-| Stick | Controls |
-|-------|----------|
-| Collective / throttle (left, Mode 2) | Head speed + collective pitch (via thr/pitch curves) |
-| Rudder (left yaw) | Tail (through gyro) |
-| Elevator (right fore/aft) | Cyclic pitch |
-| Aileron (right left/right) | Cyclic roll |
+| Stick | Input | Output CH | Label |
+|-------|--------|-----------|--------|
+| Throttle / collective | Thr + Pit curves | **CH1** Motor · **CH3** Elevate | Head speed + swash height |
+| Aileron | Ail | **CH2** Roll | Roll servo only |
+| Elevator | Ele | **CH6** Pitch | Fore/aft servo only |
+| Rudder | Rud | **CH4** Rud | Tail gyro |
 
 ## Recommended default before spool
 
@@ -32,11 +30,11 @@ If the gyro is rudder-only (no gain wire), leave **CH5** empty ? same as HBK2.
 |---------|--------|
 | **SF** | Hold **ON** |
 | **SE** | **Normal** |
-| **SC** | **Low** (same throw as High until you retune) |
+| **SC** | **Low** |
 | Collective | Low / idle |
 
 ## Related
 
 - [Setup](SETUP.md)
-- [Flight modes & curves](flight-modes-and-curves.md)
+- [R86C wiring](r86c-wiring.md)
 - [? Model home](README.md)
