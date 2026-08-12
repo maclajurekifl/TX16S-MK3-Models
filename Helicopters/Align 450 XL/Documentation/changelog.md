@@ -1,5 +1,14 @@
 # Changelog — Align 450 XL
 
+## 2026-08-12
+
+- Switched from eCCPM (**TYPE_120** / CYC1–3) to **independent** servos matching the airframe:
+  - **CH2** ← Ail (roll)
+  - **CH3** ← Pit (elevate / collective)
+  - **CH6** ← Ele (pitch)
+  - Heli swash **TYPE_NONE**
+- Updated SETUP + R86C wiring docs.
+
 ## 2026-08-07
 
 - Clarified tune intent: **dual rates = Align 450 SE V2**; **heli swash weights = 100/100/100** (not the SE V2 ±60).

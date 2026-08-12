@@ -1,6 +1,9 @@
 semver: 2.12.0
 header: 
    name: "Align 450 XL"
+   modelId: 
+      1:
+         val: 1
    bitmap: "Align450XL.png"
    labels: "All,Helicopters"
 timers: 
@@ -96,7 +99,7 @@ mixData:
    name: "Idlen2"
  -
    destCh: 1
-   srcRaw: "CYC2"
+   srcRaw: "I0"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -110,10 +113,10 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Roll"
  -
    destCh: 2
-   srcRaw: "CYC1"
+   srcRaw: "I4"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -127,7 +130,8 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Coll"
+ -
  -
    destCh: 3
    srcRaw: "I3"
@@ -218,7 +222,7 @@ mixData:
    name: ""
  -
    destCh: 5
-   srcRaw: "CYC3"
+   srcRaw: "I1"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -232,7 +236,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "Pitch"
 limitData: 
    0:
       min: 0
@@ -258,7 +262,7 @@ limitData:
       ppmCenter: 0
       offset: 0
       symetrical: 0
-      revert: 1
+      revert: 0
       curve: 0
       name: "Ele"
    3:
@@ -285,7 +289,7 @@ limitData:
       ppmCenter: 0
       offset: 0
       symetrical: 0
-      revert: 1
+      revert: 0
       curve: 0
       name: "Pit"
 expoData: 
@@ -507,8 +511,6 @@ points:
       val: -100
    1:
       val: -80
-   2:
-      val: 0
    3:
       val: 50
    4:
@@ -521,8 +523,6 @@ points:
       val: -50
    9:
       val: -25
-   10:
-      val: 0
    11:
       val: 40
    12:
@@ -589,20 +589,16 @@ customFn:
       func: OVERRIDE_CHANNEL
       def: "0,-100,1"
 swashR: 
-   type: TYPE_120
+   type: TYPE_NONE
    value: 0
-   collectiveSource: I4
-   aileronSource: I0
-   elevatorSource: I1
-   collectiveWeight: 100
-   aileronWeight: 100
-   elevatorWeight: 100
+   collectiveSource: NONE
+   aileronSource: NONE
+   elevatorSource: NONE
+   collectiveWeight: 0
+   aileronWeight: 0
+   elevatorWeight: 0
 flightModeData: 
    0:
-      trim: 
-         0:
-            value: 0
-            mode: 0
       name: "Normal"
       swtch: "NONE"
       fadeIn: 0
@@ -732,11 +728,11 @@ screenData:
                      1:
                         type: Signed
                         value: 
-                           signedValue: -1024
+                           signedValue: 1024
                      2:
                         type: Signed
                         value: 
-                           signedValue: 1024
+                           signedValue: -1024
                      3:
                         type: Color
                         value: 
